@@ -1,6 +1,6 @@
 ---
 role: PhD Candidate in Machine Learning and Particle Physics
-avatar_filename: img_3631.jpeg
+avatar_filename: assets/media/img_3631.jpeg
 bio: ""
 interests:
   - High Energy Physics
