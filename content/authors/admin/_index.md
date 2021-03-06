@@ -1,11 +1,12 @@
 ---
 role: PhD Candidate in Machine Learning and Particle Physics
 avatar_filename: img_3631.jpeg
-bio: "My Research interests are: "
+bio: ""
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - High Energy Physics
+  - DiHiggs Searches
+  - Deep Learning
+  - Graph Neural Networks
 social:
   - icon: envelope
     icon_pack: fas
@@ -23,19 +24,19 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/in/raghav-kansal-7968968b/
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: University of California, San Diego
+    url: ucsd.edu
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Physics
+      institution: UCSD
+      year: ""
+    - course: BSc in Computer Engineering
+      institution: UCSD
+      year: 2019
+    - course: BSc in Physics
+      institution: UCSD
+      year: 2019
 superuser: true
 highlight_name: false
 title: Raghav Kansal
@@ -43,6 +44,6 @@ email: ""
 ---
 I am a PhD candidate at the University of California, San Diego and am part of the CMS experiment at the Large Hadron Collider at CERN. 
 
-My research focuses on creating/applying machine learning models for/to particle physics. I am particularly interested in generative models for simulating particle collisions, as well as collaborating with people around the world on improving data collection, reconstruction, and analysis using ML. 
+I work on creating/applying machine learning models for/to particle physics. I am particularly interested in generative models for simulating particle collisions, as well as improving data collection, reconstruction, and analysis using ML. 
 
 {{< icon name="download" pack="fas" >}} My CV is available {{< staticref "media/demo_resume.pdf" "newtab" >}}here{{< /staticref >}}.
