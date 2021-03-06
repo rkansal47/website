@@ -35,7 +35,7 @@ education:
       institution: University of California, San Diego <br> 3.98/4.00
       year: 2021 
     - course: Double BSc in Physics and Computer Engineering
-      institution: University of California, San Diego <br> <i>summa cum laude</i>, 3.98/4.00 <br> Received Both Departmental and Divisional Awards
+      institution: University of California, San Diego" <br> <i>summa cum laude</i>, 3.98/4.00 <br> "Received Both Departmental and Divisional Awards
       year: 2019
 superuser: true
 highlight_name: false
