@@ -1,6 +1,6 @@
 ---
-title: Raghav Kansal
 role: PhD Candidate in Machine Learning and Particle Physics
+avatar_filename: img_3631.jpeg
 bio: "My Research interests are: "
 interests:
   - Artificial Intelligence
@@ -36,9 +36,10 @@ education:
     - course: BSc in Artificial Intelligence
       institution: Massachusetts Institute of Technology
       year: 2008
-email: ""
 superuser: true
 highlight_name: false
+title: Raghav Kansal
+email: ""
 ---
 I am a PhD candidate at the University of California, San Diego and am part of the CMS experiment at the Large Hadron Collider at CERN. 
 
