@@ -30,16 +30,15 @@ education:
   courses:
     - course: PhD in Physics
       institution: University of California, San Diego
-      year: ""
+      year: 2019 -
     - course: Double BSc in Physics and Computer Engineering
-      institution: |
-        University of California, San Diego
+      institution: University of California, San Diego
       year: 2019
 superuser: true
 highlight_name: false
 title: Raghav Kansal
 email: ""
 ---
-I'm Raghav, a PhD candidate at the University of California, San Diego and also part of the CMS experiment at the Large Hadron Collider at CERN.
+I'm Raghav, a PhD candidate at the University of California, San Diego, and part of the CMS experiment at the Large Hadron Collider at CERN.
 
-I work on creating/applying machine learning models for/to particle physics. I am particularly interested in generative models for simulating particle collisions, as well as more generally using ML for improving data collection, reconstruction, and analysis.
+I work on creating/applying machine learning models for/to particle physics. I am particularly interested in generative models for simulating particle collisions, as well as more generally using ML for improving data collection, reconstruction, and analysis. In the past I have worked in experimental quantum information science/AMO as well as in the intersection between neuroscience and physics.
