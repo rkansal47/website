@@ -14,8 +14,8 @@ social:
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/rkansal47
-  - icon: graduation-cap
-    icon_pack: fas
+  - icon: google-scholar
+    icon_pack: ai
     link: https://scholar.google.com/citations?user=Hi8Bc4QAAAAJ&hl=en&oi=ao
   - icon: github
     icon_pack: fab
@@ -36,9 +36,13 @@ education:
       year: 2019
 superuser: true
 highlight_name: false
-title: Raghav Kansal
+title: ""
 email: ""
 ---
 I'm Raghav, a PhD candidate at the University of California, San Diego, and part of the CMS experiment at the Large Hadron Collider at CERN.
 
-I work on creating/applying machine learning models for/to particle physics. I am particularly interested in generative models for simulating particle collisions, as well as more generally using ML for improving data collection, reconstruction, and analysis. In the past I have worked in experimental quantum information science/AMO as well as in the intersection between neuroscience and physics.
+I work on creating/applying machine learning models for/to particle physics. I'm particularly interested in generative models for simulating particle collisions, as well as more generally using ML for improving data collection, reconstruction, and analysis.
+
+In the past I have worked in experimental quantum information science/AMO as well as in the intersection between neuroscience and physics.
+
+<b> This website is a work in progress and will be updated in the coming weeks. </b>
