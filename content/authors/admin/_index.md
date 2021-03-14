@@ -4,7 +4,7 @@ avatar_filename: assets/media/img_3631.jpeg
 bio: ""
 interests:
   - High Energy Physics
-  - Di-Higgs Boson Searches
+  - Double-Higgs Boson Searches
   - Deep Learning
   - Graph Neural Networks
 social:
@@ -31,7 +31,7 @@ education:
     - course: PhD in Physics
       institution: University of California, San Diego
       year: 2019 -
-    - course: Double BSc in Physics and Computer Engineering
+    - course: BSc in Physics and Computer Engineering, 3.98/4.00
       institution: University of California, San Diego
       year: 2019
 superuser: true
@@ -43,6 +43,6 @@ I'm Raghav, a PhD candidate at the University of California, San Diego, and part
 
 I work on creating/applying machine learning models for/to particle physics. I'm particularly interested in generative models for simulating particle collisions, as well as more generally using ML for improving data collection, reconstruction, and analysis.
 
-In the past I have worked in experimental quantum information science/AMO as well as in the intersection between neuroscience and physics.
+I have technical experience in software and electrical engineering, and in the past I have also worked in experimental quantum information science/AMO as well as in the intersection between neuroscience and physics.
 
 <b> This website is a work in progress and will be updated in the coming weeks. </b>
