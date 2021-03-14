@@ -58,7 +58,7 @@ item:
 - certificate_url: ""
   date_end: ""
   date_start: "2019-06-01"
-  description: "'Presented annually at commencement to a graduating physics student who is recognized for potential for a career in physics and a measure of experimental inquisitiveness.'"
+  description: "Sole recipient of this prize, which is 'presented annually at commencement to a graduating physics student who is recognized for potential for a career in physics and a measure of experimental inquisitiveness.'"
   organization: UC San Diego Department of Physics
   organization_url: https://physics.ucsd.edu
   title: 2019 John Holmes Malmberg Prize
