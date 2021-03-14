@@ -1,6 +1,6 @@
 ---
 title: Optical Tweezers and a Quantum Gas Microscope
-summary: I created dynamic, sub-micron holographic optical tweezers and a Quantum Gas Microscope with sub-micron resolution in order to manipulate individual atoms (or qubits) for quantum computing and quantum information science experiments. This work won a William A. Lee Research award, and will be published soon.
+summary: Created dynamic, sub-micron holographic optical tweezers and a Quantum Gas Microscope with sub-micron resolution in order to manipulate individual atoms (or qubits) for quantum computing and quantum information science experiments. This work won a William A. Lee Research award, and will be published soon.
 
 tags:
 - phys
