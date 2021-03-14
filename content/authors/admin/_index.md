@@ -25,7 +25,7 @@ social:
     link: https://www.linkedin.com/in/raghav-kansal-7968968b/
 organizations:
   - name: University of California, San Diego
-    url: https://physics.ucsd.edu
+    url: https://ucsd.edu
 education:
   courses:
     - course: PhD in Physics
