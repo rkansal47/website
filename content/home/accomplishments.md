@@ -45,7 +45,7 @@ item:
   description: "For the talk 'Deep Graph Neural Networks for Fast HGCAL Simulation'"
   organization: CERN
   organization_url: https://cern.ch
-  title: CERN Openlab Summer Students Lightning Talks Runner-Up
+  title: CERN Openlab Summer Students Lightning Talks Award Runner-Up
   url: "https://home.cern/news/news/cern/cern-openlab-summer-student-programme-closes-lightning-talks"
 - certificate_url:
   date_end: ""

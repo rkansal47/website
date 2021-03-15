@@ -1,6 +1,6 @@
 ---
 title: Equivariant Neural Networks
-summary: Wrote a review of current work on deep learning models that are equivariant to group transformations relevant to physics for my fantastic group theory course. Our group is now looking into applications of Lorentz group equivariant models to generation - stay tuned for more updates on this!
+summary: Wrote a review of deep learning models that are equivariant to physics-relevant group transformations for Prof. John McGreevy's fantastic group theory course. Our group (ha!) is now looking into applications of Lorentz group equivariant models to generation - stay tuned for more updates on this!
 tags:
 - phys
 - ml

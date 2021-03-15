@@ -1,6 +1,6 @@
 ---
 title: 'GRAD: An interactive graph-based degree planning app'
-summary: Created an app for visualizing course requirements with a user-friendly UI. I was the Back-end and Algorithms Lead for a team of 10, and personally wrote the server, scraping and graphing algorithms for the app. We ended up being one of the eight finalists out of 60 groups in the UCSD software engineering course.
+summary: Created an app for visualizing course requirements with a user-friendly UI. I was the Back-end and Algorithms Lead for a team of 10, and personally wrote the server, scraping and graphing algorithms for the app. We were one of 8 finalists out of 60 projects in the UCSD 2018 software engineering course.
 tags:
 - comp
 date: "2017-03-27T00:00:00Z"

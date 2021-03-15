@@ -1,6 +1,6 @@
 ---
 title: Graph GAN
-summary: Leading the effort on developing a graph-based GAN, which has proven effective at generating sparse data with irregular underlying geometry. Our first results were accepted as a poster at the Machine Learning for the Physical Sciences Workshop at NeurIPS 2020. We're now experimenting with a conditional GAN version and variable-sized graphs, as well as applications to other datasets such as LHC calorimeter data.
+summary: Leading the effort on developing a graph-based Generative Adversarial Network (GAN), which has proven effective at generating sparse data with irregular underlying geometry. Our first results were accepted as a poster at the Machine Learning for the Physical Sciences Workshop at NeurIPS 2020. We're now experimenting with a conditional GAN version and variable-sized graphs, as well as applications to other datasets such as CERN detector data.
 tags:
 - comp
 - ml

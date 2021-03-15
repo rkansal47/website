@@ -29,12 +29,12 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Machine Learning
+  - name: ML
     tag: ml
-  - name: Software
-    tag: comp
   - name: Physics
     tag: phys
+  - name: Software
+    tag: comp
 
 design:
   background:

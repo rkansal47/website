@@ -37,7 +37,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: ML + Particle Physics Researcher
+  - title: Machine Learning + Particle Physics Researcher
     company: Duarte Lab, UC San Diego
     company_url: 'https://jduarte.physics.ucsd.edu'
     location: San Diego, USA
@@ -53,7 +53,7 @@ experience:
     date_start: '2019-06-01'
     date_end: '2019-08-01'
     description: |
-        * Started our project on graph generative models for performing particle physics simulations, motivated primarily by the new HGCAL detector being added to the Large Hadron Collider
+        * Started our project on graph generative models for particle physics simulations, motivated primarily by the CMS experiment's new High Granularity Calorimeter (HGCAL)
   - title: Experimental Quantum Information Science Researcher
     company: Barreiro Lab, UC San Diego
     company_url: 'https://barreirolab.com'
