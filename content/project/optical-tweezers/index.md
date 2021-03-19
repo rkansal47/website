@@ -11,7 +11,7 @@ external_link: ""
 
 links:
 url_code: ""
-url_pdf: "project/optical-tweezers/lee-poster.pdf"
+url_poster: "project/optical-tweezers/lee-poster.pdf"
 url_slides: ""
 url_video: ""
 

@@ -47,4 +47,4 @@ I have technical experience in software and electrical engineering, and in the p
 
 <b> This website is a work in progress and will be updated in the coming weeks. </b>
 
-<sup><sub> Can you find the connection between the backgrounds? </sub></sup>
+<sup><sub> Can you find what connects the backgrounds? </sub></sup>
