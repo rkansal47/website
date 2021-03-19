@@ -18,7 +18,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 # publishDate: "2017-01-01T00:00:00Z"
 
-external_link: https://sites.google.com/view/rossella-arcucci/home/calendar-datalearningg
+external_link: https://sites.google.com/view/rossella-arcucci/home/calendar-datalearning
 
 authors: []
 tags: []
@@ -30,7 +30,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "https://www.icloud.com/keynote/0KOaaRau6YDEDtmWHQTYA_Tjw#ICL_Talk_2/2/21"
-url_video: ""
+url_video: "https://drive.google.com/file/d/11hXweUt9wKSh6a3TnA8xt1bh0UQJDQQq/view?usp=sharing"
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

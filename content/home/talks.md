@@ -9,9 +9,9 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-active: false
+active: true
 
-title: 'Invited Posters and Talks'
+title: 'Talks + Posters'
 subtitle:
 
 content:

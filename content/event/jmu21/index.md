@@ -29,7 +29,7 @@ external_link: http://educ.jmu.edu/~nelsonhy/AI_ML_Seminar/AI_ML_Seminar.html
 links:
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "https://www.icloud.com/keynote/0T76dis0vo-zuGOo-eqYiQ7Yw#JMU_Talk_18/3/21"
 url_video: ""
 
 # Markdown Slides (optional).

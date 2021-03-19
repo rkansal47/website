@@ -11,7 +11,7 @@ abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-03-16T13:00:00Z"
+date: "2021-03-17T13:00:00Z"
 # <!-- date_end: "2030-06-01T15:00:00Z" -->
 all_day: false
 
@@ -29,7 +29,7 @@ featured: false
 links:
 url_code: ""
 url_pdf: ""
-url_slides: "slides.pdf"
+url_slides: "https://www.icloud.com/keynote/0wnnG2DX4goYINzGE4UT_E5Eg#BIDS_Talk_17/3/21"
 url_video: ""
 
 # Markdown Slides (optional).
