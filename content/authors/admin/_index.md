@@ -45,4 +45,4 @@ I create and apply machine learning (ML) models for and to particle physics. I'm
 
 I have technical experience in software and electrical engineering, and in the past I have also worked in experimental quantum information science/AMO as well as in the intersection between neuroscience and physics.
 
-<sup><sub> Can you find what connects the backgrounds? </sub></sup>
+<sup><sub> Can you find what links the backgrounds? </sub></sup>
