@@ -32,3 +32,5 @@ This project involved
 - programming FPGA and C electronic devices for controlling the deflectors
 - creating and (3D) printing mechanical mounts and electronics circuits
 - writing the algorithms for holography and dynamically arranging tweezers
+
+More info can be found in the poster (link above) as well as our paper coming out soon. 
