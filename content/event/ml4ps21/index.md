@@ -4,9 +4,10 @@ title: Graph Generative Adversarial Networks for Sparse Data Generation in High 
 event: NeurIPS 2020 Machine Learning and the Physical Sciences Workshop
 event_url: https://ml4physicalsciences.github.io/2020/
 
-location: NeurIPS 2020 Machine Learning and the Physical Sciences Workshop
+location: 'NeurIPS 2020 (Virtual)'
+location_link: https://neurips.cc/Conferences/2020
 
-summary: ''
+summary: 'n'
 abstract: ""
 
 # Talk start and end times.
@@ -31,7 +32,7 @@ url_slides: ""
 url_video: ""
 url_poster: "https://ml4physicalsciences.github.io/2020/files/NeurIPS_ML4PS_2020_104_poster.pdf"
 
-external_link: https://ml4physicalsciences.github.io/2020/
+slug: ml4ps21
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

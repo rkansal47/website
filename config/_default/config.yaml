@@ -5,7 +5,7 @@
 
 title: Raghav Kansal # Website name
 baseurl: '' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+copyright: '© 2021 Raghav Kansal' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE

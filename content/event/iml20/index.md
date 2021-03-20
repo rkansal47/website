@@ -4,9 +4,10 @@ title: Sparse Data Generation with Graph GANs
 event: Inter-Experimental LHC Machine Learning Working Group Meeting
 event_url: https://indico.cern.ch/event/973140/
 
-location: Inter-Experimental LHC Machine Learning Working Group Meeting
+location: 'CERN (Virtual)'
+location_link: 'https://cern.ch'
 
-summary: ''
+summary: 'n'
 abstract: ""
 
 # Talk start and end times.
@@ -30,7 +31,7 @@ url_pdf: ""
 url_slides: "https://www.icloud.com/keynote/0tNP04bknRCPSSesKiib3H_qg#IML_Meeting_23/11"
 url_video: ""
 
-external_link: https://indico.cern.ch/event/973140/
+slug: iml20
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

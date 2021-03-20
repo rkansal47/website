@@ -1,12 +1,13 @@
 ---
 title: Deep Graph Neural Networks for Fast HGCAL Simulation
 
-event: Princeton IRIS-HEP Review
+event: IRIS-HEP Review Meeting
 event_url: https://iris-hep.org/
 
-location: Princeton IRIS-HEP Review
+location: 'Princeton'
+location_link: https://www.princeton.edu
 
-summary: ''
+summary: 'n'
 abstract: ""
 
 # Talk start and end times.
@@ -31,7 +32,7 @@ url_slides: ""
 url_video: ""
 url_poster: "IRIS-HEP-Poster.pdf"
 
-external_link: https://iris-hep.org/
+slug: 'irishep20'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

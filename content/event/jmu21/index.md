@@ -1,12 +1,14 @@
 ---
 title: Graph Generative Adversarial Networks for High Energy Physics Data Generation
 
-event: James Madison University Artificial Intelligence and Machine Learning Seminar
+event: JMU Artificial Intelligence and Machine Learning Seminar
 event_url: http://educ.jmu.edu/~nelsonhy/AI_ML_Seminar/AI_ML_Seminar.html
 
-location: James Madison University Artificial Intelligence and Machine Learning Seminar
+location: 'James Madison University (Virtual)'
+location_link: https://www.jmu.edu
 
-summary: 'JMU Artificial Intelligence and Machine Learning Seminar'
+
+summary: 'James Madison University (Virtual)'
 abstract: 'Graph-based networks, with their ability to handle sparse, permutation invariant data with complex geometries, have recently proven useful in a variety of disciplines. This includes high energy physics, where they have been successfully applied to important classification and reconstruction tasks, however have yet to be explored for generation. We develop new graph-based generative models, using the message passing neural network and generative adversarial network frameworks, for simulating datasets like those produced at the CERN Large Hadron Collider (LHC). We demonstrate our model by training on and generating graphical representations of MNIST images, and jets of particles in proton-proton collisions like those at the LHC.'
 
 # Talk start and end times.
@@ -24,13 +26,13 @@ tags: []
 # Is this a featured talk? (true/false)
 featured: false
 
-external_link: http://educ.jmu.edu/~nelsonhy/AI_ML_Seminar/AI_ML_Seminar.html
-
 links:
 url_code: ""
 url_pdf: ""
 url_slides: "https://www.icloud.com/keynote/0T76dis0vo-zuGOo-eqYiQ7Yw#JMU_Talk_18/3/21"
 url_video: ""
+
+slug: jmu21
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

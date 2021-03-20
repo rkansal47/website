@@ -4,9 +4,10 @@ title: Arbitrary Ultra-Cold Atomic Lattices Using Holographic Optical Tweezers
 event: UC San Diego Undergraduate Research Conference
 event_url:
 
-location: UC San Diego Undergraduate Research Conference
+location: UC San Diego
+location_link: https://ucsd.edu
 
-summary:
+summary: 'n'
 abstract:
 
 # Talk start and end times.
@@ -30,6 +31,8 @@ url_pdf: ""
 url_slides: "https://www.icloud.com/keynote/0XlWepmc6n4PfewALzL1IZKlQ#URC_Presentation"
 url_video: ""
 url_poster: ""
+
+slug: urc18
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

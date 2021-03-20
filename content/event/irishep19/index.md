@@ -4,9 +4,9 @@ title: Deep Graph Neural Networks for Fast HGCAL Simulation
 event: IRIS-HEP Topical Meeting
 event_url: https://indico.cern.ch/event/840376/
 
-location: IRIS-HEP Topical Meeting
+location: Virtual
 
-summary:
+summary: 'n'
 abstract:
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -29,7 +29,7 @@ url_pdf: ""
 url_slides: "https://www.icloud.com/keynote/0LHNzXHaOt5oAlAFDtkzpTiNQ#GNNs_for_Fast_HGCAL_Simulation_(IRIS-HEP)"
 url_video: ""
 
-external_link: https://indico.cern.ch/event/840376/
+slug: irishep19
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

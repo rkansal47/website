@@ -31,8 +31,8 @@ education:
     - course: PhD in Physics
       institution: University of California, San Diego
       year: 2019 -
-    - course: BSc in Physics and Computer Engineering, 3.98/4.00
-      institution: University of California, San Diego
+    - course: BSc in Physics and Computer Engineering
+      institution: University of California, San Diego <br> <i>summa cum laude</i>, 3.98/4.00
       year: 2019
 superuser: true
 highlight_name: false
@@ -44,7 +44,5 @@ I'm Raghav, a PhD candidate at the University of California, San Diego, and part
 I create and apply machine learning (ML) models for and to particle physics. I'm particularly interested in generative models for simulating particle collisions, as well as more generally using deep learning for improving data collection, reconstruction, and analysis.
 
 I have technical experience in software and electrical engineering, and in the past I have also worked in experimental quantum information science/AMO as well as in the intersection between neuroscience and physics.
-
-<b> This website is a work in progress and will be updated in the coming weeks. </b>
 
 <sup><sub> Can you find what connects the backgrounds? </sub></sup>

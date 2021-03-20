@@ -1,12 +1,13 @@
 ---
 title: Graph Generative Adversarial Networks for High Energy Physics Data Generation
 
-event: Berkeley Institute for Data Science Deep Generative Models for Fundamental Physics Meeting
+event: BIDS Deep Generative Models for Fundamental Physics Meeting
 event_url: https://hep-lbdl.github.io/deepmodels4physics.github.io/
 
-location: Berkeley Institute for Data Science Deep Generative Models for Fundamental Physics Meeting
+location: 'Berkeley Institute for Data Science (Virtual)'
+location_link: https://bids.berkeley.edu
 
-summary: ''
+summary: 'n'
 abstract: ""
 
 # Talk start and end times.
@@ -15,12 +16,11 @@ date: "2021-03-17T13:00:00Z"
 # <!-- date_end: "2030-06-01T15:00:00Z" -->
 all_day: false
 
-external_link: https://hep-lbdl.github.io/deepmodels4physics.github.io/
 
 # Schedule page publish date (NOT talk date).
 # publishDate: "2017-01-01T00:00:00Z"
 
-authors: ['Raghav Kansal']
+authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
@@ -31,6 +31,8 @@ url_code: ""
 url_pdf: ""
 url_slides: "https://www.icloud.com/keynote/0wnnG2DX4goYINzGE4UT_E5Eg#BIDS_Talk_17/3/21"
 url_video: ""
+
+slug: bids21
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

@@ -1,12 +1,13 @@
 ---
 title: Deep Graph Neural Networks for Fast HGCAL Simulation
 
-event: CERN CMS Computing Group Meeting
+event: CMS Computing Group Meeting
 event_url: https://indico.cern.ch/event/840645/
 
-location: CERN CMS Computing Group Meeting
+location: 'CERN'
+location_link: 'https://cern.ch'
 
-summary:
+summary: 'n'
 abstract:
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -29,7 +30,7 @@ url_pdf: ""
 url_slides: "https://www.icloud.com/keynote/0rpFvCcIkKCnPW4JKU1R8nVrA#GNNs_for_Fast_HGCAL_Simulation_(CMG)"
 url_video: ""
 
-external_link: https://indico.cern.ch/event/840645/
+slug: cmscg19
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

@@ -4,9 +4,10 @@ title: Arbitrary Positioning and Manipulation of Ultra-Cold Atoms with Optical T
 event: William A. Lee Undergraduate Research Award Poster Presentations
 event_url:
 
-location: William A. Lee Undergraduate Research Award Poster Presentations
+location: UC San Diego
+location_link: https://ucsd.edu
 
-summary:
+summary: 'n'
 abstract:
 
 # Talk start and end times.
@@ -30,6 +31,8 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 url_poster: "project/optical-tweezers/lee-poster.pdf"
+
+slug: lee18
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

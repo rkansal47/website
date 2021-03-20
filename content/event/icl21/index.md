@@ -1,10 +1,11 @@
 ---
 title: Graph Generative Adversarial Networks for High Energy Physics Data Generation
 
-event: Imperial College London DataLearning Working Group Meeting
-event_url: https://sites.google.com/view/rossella-arcucci/home/calendar-datalearningg
+event: ICL DataLearning Working Group Meeting
+event_url: https://sites.google.com/view/rossella-arcucci/home/calendar-datalearning
 
-location: Imperial College London DataLearning Working Group Meeting
+location: 'Imperial College London (Virtual)'
+location_link: https://www.imperial.ac.uk
 
 summary: ''
 abstract: "Graph-based networks, with their ability to handle sparse, permutation invariant data with complex geometries, have recently proven useful in a variety of disciplines. One of these is high energy physics, where they have been successfully applied to important classification and reconstruction tasks, however have yet to be explored much for generation. We discuss some generative models for simulating datasets like those produced at the CERN Large Hadron Collider (LHC), and focus on a new message-passing graph based generative adversarial network. This approach is demonstrated by training on and generating sparse representations of MNIST images and jets of particles in proton-proton collisions like those at the LHC."
@@ -18,8 +19,6 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 # publishDate: "2017-01-01T00:00:00Z"
 
-external_link: https://sites.google.com/view/rossella-arcucci/home/calendar-datalearning
-
 authors: []
 tags: []
 
@@ -31,6 +30,8 @@ url_code: ""
 url_pdf: ""
 url_slides: "https://www.icloud.com/keynote/0KOaaRau6YDEDtmWHQTYA_Tjw#ICL_Talk_2/2/21"
 url_video: "https://drive.google.com/file/d/11hXweUt9wKSh6a3TnA8xt1bh0UQJDQQq/view?usp=sharing"
+
+slug: icl21
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

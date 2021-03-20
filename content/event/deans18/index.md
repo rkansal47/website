@@ -1,12 +1,13 @@
 ---
 title: Arbitrary Positioning and Manipulation of Ultra-Cold Atoms with Optical Tweezers
 
-event: UC San Diego Dean of Physical Sciences' Leadership Council Poster Presentations
+event: UCSD Dean of Physical Sciences' Leadership Council Poster Presentations
 event_url:
 
-location: UC San Diego Dean of Physical Sciences' Leadership Council Poster Presentations
+location: UC San Diego
+location_link: https://ucsd.edu
 
-summary:
+summary: 'n'
 abstract:
 
 # Talk start and end times.
@@ -30,6 +31,8 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 url_poster: "project/optical-tweezers/lee-poster.pdf"
+
+slug: deans18
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
