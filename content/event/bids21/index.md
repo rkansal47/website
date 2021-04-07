@@ -30,7 +30,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "https://www.icloud.com/keynote/0wnnG2DX4goYINzGE4UT_E5Eg#BIDS_Talk_17/3/21"
-url_video: "https://youtu.be/5_JfmcIYdOA?t=568"
+url_video: "https://youtu.be/5_JfmcIYdOA?t=569"
 
 slug: bids21
 
