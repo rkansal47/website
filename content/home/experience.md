@@ -45,7 +45,7 @@ experience:
     date_end: ''
     description: |
         * Developing new graph generative models for sparse and irregular data like that in particle physics
-        * Using new deep graph neural network classifiers to set the most stringent constraints to date on double-Higgs production, allowing us insight into the metastability of the universe
+        * Using new deep graph neural network classifiers to set the most stringent constraints to date on double-Higgs production, allowing insight into the metastability of the universe
   - title: CERN Openlab Intern
     company: Machine Learning for Particle Physics Group, CERN
     company_url: 'https://cern.ch'
