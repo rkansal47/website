@@ -3,10 +3,9 @@ role: PhD Candidate in Machine Learning and Particle Physics
 avatar_filename: assets/media/img_3631.jpeg
 bio: ""
 interests:
-  - Particle Physics Simulations
-  - Double-Higgs Boson Searches
-  - Deep Learning
-  - Graph Neural Networks
+  - Generative Models
+  - Geometric Deep Learning
+  - Di-Higgs Searches
 social:
   - icon: envelope
     icon_pack: fas
@@ -29,7 +28,7 @@ organizations:
 education:
   courses:
     - course: PhD in Physics
-      institution: University of California, San Diego
+      institution: University of California, San Diego, 3.97/4.00
       year: 2019 -
     - course: BSc in Physics and Computer Engineering
       institution: University of California, San Diego <br> <i>summa cum laude</i>, 3.98/4.00
