@@ -3,7 +3,7 @@ widget: about
 widget_id: Authors
 headless: true
 weight: 10
-title: Hello World
+title: Welcome
 active: true
 author: admin
 ---
