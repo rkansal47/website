@@ -3,6 +3,7 @@ title: JetNet
 summary: Developing a library and website for convenient access to jet datasets, in particle cloud representations, along with several useful utilities for jet-based machine learning development. Has been used so far for our group's MPGAN and LGAE projects, and continues to be expanded.
 tags:
 - phys
+- comp
 - ml
 date: "2020-12-27T00:00:00Z"
 
