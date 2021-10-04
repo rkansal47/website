@@ -44,8 +44,9 @@ experience:
     date_start: '2019-09-01'
     date_end: ''
     description: |
-        * Developing new graph generative models for sparse and irregular data like that in particle physics
-        * Using new deep graph neural network classifiers to set the most stringent constraints to date on double-Higgs production, allowing insight into the metastability of the universe
+        * Developing new graph generative models for sparse and irregular data like that prevalent in particle physics
+        * Graph neural network (GNN) autoencoders for compression and anomaly detection, machine learning for particle flow reconstruction, Lorentz-group equivariant autoencoders, JetNet library for convenience and reproducibility in machine learning development in high energy physics
+        * Developing and applying state-of-the-art GNN classifiers to set the most stringent constraints to date on double-Higgs production, allowing insight into the metastability of the universe
   - title: CERN Openlab Intern
     company: Machine Learning for Particle Physics Group, CERN
     company_url: 'https://cern.ch'

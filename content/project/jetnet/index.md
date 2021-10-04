@@ -1,6 +1,6 @@
 ---
-title: Equivariant Neural Networks
-summary: Wrote a review of deep learning models that are equivariant to physics-relevant group transformations for Prof. John McGreevy's fantastic group theory course. Our group (ha!) is now looking into applications of Lorentz group equivariant models to generation - stay tuned for more updates on this!
+title: JetNet
+summary: Developing a library and website for convenient access to jet datasets, in particle cloud representations, along with several useful utilities for jet-based machine learning development. Has been used so far for our group's MPGAN and LGAE projects, and continues to be expanded.
 tags:
 - phys
 - ml
@@ -11,8 +11,8 @@ external_link: ""
 
 
 links:
-url_code: ""
-url_pdf: "https://mcgreevy.physics.ucsd.edu/f20/final-papers/2020F-220-Kansal-Raghav.pdf"
+url_code: "https://github.com/rkansal47/JetNet"
+url_pdf: ""
 url_slides: ""
 url_video: ""
 

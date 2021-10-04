@@ -38,9 +38,9 @@ highlight_name: false
 title: ""
 email: ""
 ---
-I'm Raghav, a PhD candidate at the University of California, San Diego, and part of the CMS experiment at the Large Hadron Collider at CERN.
+I'm Raghav, a PhD candidate at the University of California, San Diego, part of the CMS experiment at the Large Hadron Collider at CERN, and a 2021 Fermilab LPC Artificial Intelligence Fellow.
 
-My focus is primarily on developing machine learning models for particle physics. I'm particularly interested in generative models for simulating particle collisions, as well as more generally using deep learning for improving data collection, reconstruction, and analysis - and ultimately for finding new physics!
+My focus is on developing machine learning models for particle physics. I'm particularly interested in generative models for simulating particle collisions, as well as more generally using deep learning for improving data collection, reconstruction, and analysis - and ultimately for finding new physics!
 
 I have technical experience in software and electrical engineering, and in the past I have also worked in experimental quantum information science/AMO as well as in the intersection between neuroscience and physics.
 
