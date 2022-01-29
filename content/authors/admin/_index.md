@@ -44,4 +44,6 @@ My focus is on developing machine learning models for particle physics. I'm part
 
 I have technical experience in software and electrical engineering, and in the past I have also worked in experimental quantum information science/AMO as well as in the intersection between neuroscience and physics.
 
+<sub>Last updated: 28/01/21</sub>
+
 <sup><sub> Can you find what links the backgrounds? </sub></sup>

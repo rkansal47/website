@@ -40,10 +40,18 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
 - certificate_url:
+  date_end: ""
+  date_start: "2020-11-24"
+  description: "One of two recipients of this award, which 'honors outstanding graduate students in the Division of Physical Sciences who seek interdisciplinary approaches to problem solving and have a strong commitment to education, mentorship, and service.'"
+  organization: UC San Diego Division of Physical Sciences
+  organization_url: https://physicalsciences.ucsd.edu
+  title: 2020-21 Carol and George Lattimer Award for Excellence
+  url: ""
+- certificate_url:
   date_end: "2021-09-01"
   date_start: "2020-09-01"
   description: "For ML-based fast simulation software, ML techniques for reconstruction, compression, and anomaly detection tasks, and a boosted Higgs to WW tagger for precision measurements."
-  organization: Femrilab
+  organization: Fermilab
   organization_url: https://www.fnal.gov
   title: Fermilab LPC Artificial Intelligence Fellowship
   url: "https://lpc.fnal.gov/programs/ai-fellowships/index_2021.shtml"

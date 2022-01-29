@@ -1,6 +1,6 @@
 ---
-title: Lorentz-Group-Equivariant Autoencoder
-summary: Wrote a review of deep learning models that are equivariant to physics-relevant group transformations for Prof. John McGreevy's fantastic group theory course. This led to our group developing a graph-based autoencoder equivariant to Lorentz group transformations (LGAE). Our latest work has been submitted to the Machine Learning for Physical Sciences workshop at NeurIPS 2021.
+title: Lorentz Group Equivariant Autoencoder
+summary: Wrote a review of deep learning models that are equivariant to physics-relevant group transformations for Prof. John McGreevy's fantastic group theory course. This led to our group developing a graph-based autoencoder equivariant to Lorentz group transformations (LGAE). Preprint on our latest work is in progress. 
 tags:
 - phys
 - ml

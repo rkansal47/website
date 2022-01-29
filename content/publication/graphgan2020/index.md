@@ -20,8 +20,8 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: At the Third Workshop on Machine Learning and the Physical Sciences (NeurIPS 2020)
-publication_short: At the Third Workshop on Machine Learning and the Physical Sciences (NeurIPS 2020)
+publication: At the Third Workshop on Machine Learning and the Physical Sciences @ NeurIPS 2020
+publication_short: At the Third Workshop on Machine Learning and the Physical Sciences @ NeurIPS 2020
 
 abstract: We develop a graph generative adversarial network to generate sparse data sets like those produced at the CERN Large Hadron Collider (LHC). We demonstrate this approach by training on and generating sparse representations of MNIST handwritten digit images and jets of particles in proton-proton collisions like those at the LHC. We find the model successfully generates sparse MNIST digits and particle jet data. We quantify agreement between real and generated data with a graph-based Fréchet Inception distance, and the particle and jet feature-level 1-Wasserstein distance for the MNIST and jet datasets respectively.
 
