@@ -1,7 +1,7 @@
 ---
 # An instance of the Pages widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: pages
+widget: featured
 
 # This file represents a page section.
 headless: true
@@ -11,8 +11,8 @@ weight: 30
 
 active: true
 
-title: 'Talks + Posters'
-subtitle:
+title: 'Selected Talks and Posters'
+subtitle: Complete list can be found at [raghavkansal.com/event](https://www.raghavkansal.com/event/)
 
 content:
   # Page type to display. E.g. post, event, publication...

@@ -1,10 +1,10 @@
 ---
 title: Particle Cloud Generation with Message Passing GANs
 
-event: NeurIPS 21 Main Poster Session
+event: NeurIPS 21 Main Conference
 event_url: https://neurips.cc/virtual/2021/poster/28495
 
-location: 'NeurIPS 21 (Virtual)'
+location: 'NeurIPS 21 (Accepted Poster, Virtual)'
 location_link: https://neurips.cc
 
 summary: ''
@@ -23,7 +23,7 @@ authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 links:
 url_code: ""

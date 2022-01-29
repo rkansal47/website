@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Talks
+title: Raghav's Talks and Posters
 cms_exclude: true
 
 # View.

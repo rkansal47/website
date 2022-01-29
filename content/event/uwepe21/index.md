@@ -4,7 +4,7 @@ title: Particle Cloud Generation with Message Passing GANs
 event: University of Washington EPE ML Seminar
 event_url: https://indico.cern.ch/event/1085783/
 
-location: 'University of Washington (Virtual)'
+location: 'University of Washington (Invited Talk, Virtual)'
 location_link: https://www.washington.edu
 
 summary: ''
@@ -23,7 +23,7 @@ authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 links:
 url_code: ""

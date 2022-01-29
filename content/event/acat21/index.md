@@ -4,7 +4,7 @@ title: Particle Cloud Generation with Message Passing GANs
 event: ACAT 21
 event_url: https://indico.cern.ch/event/855454/
 
-location: 'ACAT, South Korea (Hybrid)'
+location: 'ACAT, South Korea (Accepted Poster, Hybrid)'
 location_link: https://www.ibs.re.kr/scc/libGuidance/scienceIntro.do
 
 summary: ''
@@ -23,7 +23,7 @@ authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 links:
 url_code: ""

@@ -45,7 +45,7 @@ item:
   description: "One of two recipients of this award, which 'honors outstanding graduate students in the Division of Physical Sciences who seek interdisciplinary approaches to problem solving and have a strong commitment to education, mentorship, and service.'"
   organization: UC San Diego Division of Physical Sciences
   organization_url: https://physicalsciences.ucsd.edu
-  title: 2020-21 Carol and George Lattimer Award for Excellence
+  title: 2020-21 Carol and George Lattimer Award for Graduate Excellence
   url: ""
 - certificate_url:
   date_end: "2021-09-01"

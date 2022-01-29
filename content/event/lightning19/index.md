@@ -4,7 +4,7 @@ title: Deep Graph Neural Networks for Fast HGCAL Simulation
 event: CERN Openlab Lightning Talks
 event_url: https://home.cern/news/news/cern/cern-openlab-summer-student-programme-closes-lightning-talks
 
-location: CERN
+location: CERN (Talk)
 location_link: 'https://cern.ch'
 
 summary: 'n'
@@ -22,7 +22,7 @@ authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 links:
 url_code: ""

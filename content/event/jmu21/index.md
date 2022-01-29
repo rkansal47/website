@@ -4,7 +4,7 @@ title: Graph Generative Adversarial Networks for High Energy Physics Data Genera
 event: JMU Artificial Intelligence and Machine Learning Seminar
 event_url: http://educ.jmu.edu/~nelsonhy/AI_ML_Seminar/AI_ML_Seminar.html
 
-location: 'James Madison University (Virtual)'
+location: 'James Madison University (Invited Talk, Virtual)'
 location_link: https://www.jmu.edu
 
 
@@ -24,7 +24,7 @@ authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 links:
 url_code: ""

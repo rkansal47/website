@@ -4,7 +4,7 @@ title: Particle Cloud Generation with Message Passing GANs
 event: MITP Machine Learning for Particle Physics Workshop
 event_url: https://indico.mitp.uni-mainz.de/event/199/overview
 
-location: Mainz Institute for Theoretical Physics (Virtual)
+location: Mainz Institute for Theoretical Physics (Invited Talk, Virtual)
 location_link: https://www.mitp.uni-mainz.de
 
 summary: ''
@@ -23,7 +23,7 @@ authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 links:
 url_code: ""

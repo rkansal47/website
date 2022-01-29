@@ -1,10 +1,10 @@
 ---
 title: Graph Generative Adversarial Networks for High Energy Physics Data Generation
 
-event: ICL DataLearning Working Group Meeting
+event: ICL DataLearning Seminar
 event_url: https://sites.google.com/view/rossella-arcucci/home/calendar-datalearning
 
-location: 'Imperial College London (Virtual)'
+location: 'Imperial College London (Invited Talk, Virtual)'
 location_link: https://www.imperial.ac.uk
 
 summary: ''
@@ -23,7 +23,7 @@ authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 links:
 url_code: ""

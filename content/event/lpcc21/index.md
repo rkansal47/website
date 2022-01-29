@@ -4,7 +4,7 @@ title: Validation Techniques for Machine-Learned FastSim
 event: LPCC Fast Detector Simulation Workshop
 event_url: https://indico.cern.ch/event/1087522/
 
-location: 'CERN (Virtual)'
+location: 'CERN (Invited Talk, Virtual)'
 location_link: https://cern.ch
 
 summary: ''
@@ -23,7 +23,7 @@ authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 links:
 url_code: ""

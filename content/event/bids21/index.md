@@ -4,7 +4,7 @@ title: Graph Generative Adversarial Networks for High Energy Physics Data Genera
 event: BIDS Deep Generative Models for Fundamental Physics Meeting
 event_url: https://hep-lbdl.github.io/deepmodels4physics.github.io/
 
-location: 'Berkeley Institute for Data Science (Virtual)'
+location: 'Berkeley Institute for Data Science (Invited Talk, Virtual)'
 location_link: https://bids.berkeley.edu
 
 summary: 'n'
@@ -24,7 +24,7 @@ authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 links:
 url_code: ""
