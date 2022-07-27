@@ -46,10 +46,10 @@ Hi, I'm a high energy physics (HEP) PhD candidate at UCSD ([Duarte Lab](https://
 
 I'm developing geometric deep generative models for LHC simulations ([MPGAN](https://github.com/rkansal47/MPGAN)), and as part of my AI fellowship I'm thinking about how to implement these for CMS. 
 
-I'm also searching for di-Higgs events, and have developed a state-of-the-art geometric deep learning classifier for this. 
+I'm also searching for di-Higgs events, which includes developing a geometric deep learning classifier for Higgs to WW jets. 
 
 Finally, I have a number of computational side projects I work and mentor students on, including [equivariant neural networks](/project/lorentz-group-autoencoder/), [geometric deep learning for anomaly detection](/project/graph-ae/), and the [JetNet](/project/jetnet/) package for ML in HEP. 
 
-<sub>Last updated: 22nd July 2022</sub>
+<sub>Last updated: 25th July 2022</sub>
 
 <sup><sub> Can you find what links the backgrounds? </sub></sup>

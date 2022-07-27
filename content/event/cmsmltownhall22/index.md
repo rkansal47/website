@@ -1,7 +1,7 @@
 ---
 title: "Overview and Outlook: Machine Learning for Simulation"
 
-event: 'CMS ML Town Hall 2022 (Video available to CMS members only.)'
+event: 'CMS ML Town Hall 2022'
 event_url: https://indico.cern.ch/event/1166570
 
 location: 'CERN (Invited Talk)'
@@ -30,7 +30,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "https://www.icloud.com/keynote/0adf9DengA8LA3LTrllsak1-w#CMS_ML_Townhall_21_07_22"
-url_video: "https://indico.cern.ch/event/1166570/contributions/4950231/attachments/2483710/4264921/kansal_recording.mp4"
+url_video: "https://drive.google.com/file/d/1T-5XExm0BWrSfPWLQfjmZQG6ktTYuCPd/view?usp=sharing"
 
 slug: cmsmltownhall22
 

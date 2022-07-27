@@ -21,7 +21,7 @@ publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 publication: Physics Review Letters
-publication_short: Phys. Rev. Lett.
+publication_short: Physics Review Letters
 
 abstract: A search for nonresonant Higgs boson (H) pair production via gluon and vector boson (V) fusion is performed in the four-bottom-quark final state, using proton-proton collision data at 13 TeV corresponding to 138 fb−1 collected by the CMS experiment at the LHC. The analysis targets Lorentz-boosted H pairs identified using a graph neural network. It constrains the strengths relative to the standard model of the H self-coupling and the quartic VVHH couplings, κ2V, excluding κ2V = 0 for the first time, with a significance of 6.3 standard deviations when other H couplings are fixed to their standard model values.
 
