@@ -1,6 +1,6 @@
 ---
-title: MPGAN
-summary: Leading the effort on developing a graph-based generative adversarial network, which we call MPGAN, which has proven effective at generating sparse data with irregular underlying geometry. Our latest work on this has been accepted to the 2021 NeurIPS main conference. We're now experimenting with a conditional GAN version and variable-sized graphs, as well as applications to other datasets such as CERN detector data.
+title: MPGAN & GAPT
+summary: Leading the effort on developing graph- and attention-based generative models for point cloud data, which we call MPGAN and GAPT, which have proven effective at generating sparse data with irregular underlying geometry. Our latest work on this has been accepted to the 2021 NeurIPS main conference. We're now experimenting with a conditional GAN version and variable-sized clouds, as well as applications to other datasets such as CERN detector data.
 tags:
 - comp
 - ml
