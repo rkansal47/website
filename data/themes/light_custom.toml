@@ -1,0 +1,18 @@
+# Theme metadata
+name = "Light Custom"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "rgb(57, 192, 43)"
+
+# Menu
+menu_primary = "rgb(57, 192, 43)"
+menu_text = "hsla(231, 15%, 18%, 1)"
+menu_text_active = "rgb(57, 192, 43)"
+menu_title = "hsla(231, 15%, 16%, 1)"
+
+# Home sections
+home_section_odd = "rgba(255,255,255,0.6)"
+home_section_even = "#fff"
