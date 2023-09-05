@@ -65,8 +65,6 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=Hi8Bc4QAAAAJ&hl=en&oi=ao
-    display:
-      header: true
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -81,14 +79,15 @@ email: ''
 highlight_name: true
 ---
 
-Hi, I'm a high energy physics (HEP) PhD candidate at UCSD ([Duarte Lab](https://jduarte.physics.ucsd.edu/)), on the [CMS](https://cms.cern) experiment at the Large Hadron Collider at CERN, and 2021-22 Fermilab LPC [Artificial Intelligence Fellow](https://lpc.fnal.gov/programs/ai-fellowships/2021/Raghav_Kansal.shtml).
+Hi, I'm a high energy physics (HEP) PhD candidate at UCSD ([Duarte Lab](https://jduarte.physics.ucsd.edu/)), on the [CMS](https://cms.cern) experiment at the Large Hadron Collider at CERN, and 2023 Fermilab LPC [Graduate Scholar](https://lpc.fnal.gov/programs/graduate-scholars/2023/Raghav_Kansal.shtml).
 
-<!-- <object data="/uploads/logos.pdf" type="application/pdf"></object> -->
 ![Logos](/uploads/logos.png)
 
-I'm developing geometric deep generative models for LHC simulations ([MPGAN](https://github.com/rkansal47/MPGAN)), and as part of my AI fellowship I'm thinking about how to implement these for CMS. 
 
-I'm also searching for di-Higgs events, which includes developing a geometric deep learning classifier for Higgs to WW jets. 
+I'm developing deep generative models for LHC simulations ([MPGAN](https://github.com/rkansal47/MPGAN)). 
+I was awarded the Fermilab [Artificial Intelligence Fellow](https://lpc.fnal.gov/programs/ai-fellowships/2021/Raghav_Kansal.shtml) fellowship in 2021 to implement these for CMS. 
+
+I'm also searching for double-Higgs events and new scalar particles, which involves developing a geometric deep learning classifier for Higgs to WW jets. 
 
 Finally, I have a number of computational side projects I work and mentor students on, including [equivariant neural networks](/project/lorentz-group-autoencoder/), [geometric deep learning for anomaly detection](/project/graph-ae/), and the [JetNet](/project/jetnet/) package for ML in HEP. 
 

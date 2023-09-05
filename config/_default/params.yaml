@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: dark_custom
-  theme_night: dark_custom
+  theme_day: green_custom
+  theme_night: green_custom
   font: minimal
   font_size: L
 
@@ -57,7 +57,8 @@ features:
   syntax_highlighter:
     theme_light: github-light
     theme_dark: dracula
-  math: true
+  math: 
+    enable: true
   privacy_pack:
     enable: false
   repository:
@@ -87,7 +88,7 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: ''
+    provider: 'google'
     api_key: ''
     zoom: 15
 
