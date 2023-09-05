@@ -40,12 +40,20 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
 - certificate_url:
+  date_end: "2024-05-01"
+  date_start: "2023-05-01"
+  description: "For searches for flavour changing neutral currents, ML for simulation, and self-supervised learning for jet classification."
+  organization: Fermilab
+  organization_url: https://www.fnal.gov
+  title: Fermilab LPC Graduate Scholarship
+  url: "https://lpc.fnal.gov/programs/graduate-scholars/index_2023.shtml"
+- certificate_url:
   date_end: ""
-  date_start: "2020-11-24"
+  date_start: "2021-11-24"
   description: "One of two recipients of this award, which 'honors outstanding graduate students in the Division of Physical Sciences who seek interdisciplinary approaches to problem solving and have a strong commitment to education, mentorship, and service.'"
   organization: UC San Diego Division of Physical Sciences
   organization_url: https://physicalsciences.ucsd.edu
-  title: 2020-21 Carol and George Lattimer Award for Graduate Excellence
+  title: 2021-22 Carol and George Lattimer Award for Graduate Excellence
   url: ""
 - certificate_url:
   date_end: "2021-09-01"

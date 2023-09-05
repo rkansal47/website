@@ -15,6 +15,7 @@ image:
 
 links:
 url_code: "https://github.com/rkansal47/MPGAN"
+url_arxiv: "https://arxiv.org/abs/2211.10295"
 url_pdf: "https://arxiv.org/pdf/2106.11535.pdf"
 url_slides: "https://www.icloud.com/keynote/0NOJMOE4ex1eXjZ3BwxH_Zm7w#MITP_MLPP_Workshop_23/06/21"
 url_video: ""
