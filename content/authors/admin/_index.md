@@ -83,12 +83,12 @@ Hi, I'm a high energy physics (HEP) PhD candidate at UCSD ([Duarte Lab](https://
 ![Logos](/uploads/logos.png)
 
 
-I'm developing deep generative models for LHC simulations ([MPGAN](https://github.com/rkansal47/MPGAN)). 
-I was awarded the Fermilab [Artificial Intelligence Fellow](https://lpc.fnal.gov/programs/ai-fellowships/2021/Raghav_Kansal.shtml) fellowship in 2021 to implement these for CMS. 
+I'm developing deep generative models for LHC simulations ([MPGAN](https://github.com/rkansal47/MPGAN)); 
+I was awarded the Fermilab [Artificial Intelligence Fellowship](https://lpc.fnal.gov/programs/ai-fellowships/2021/Raghav_Kansal.shtml) in 2021 to implement these for CMS. 
 
 I'm also searching for double-Higgs events and new particles, which involves developing a geometric deep learning classifier for Higgs to WW jets. 
 
-Finally, I have a number of computational side projects I work and mentor students on, including [equivariant neural networks](/project/lorentz-group-autoencoder/), [geometric deep learning for anomaly detection](/project/graph-ae/), and the [JetNet](/project/jetnet/) package for ML in HEP. 
+Finally, I have a number of computational side projects I work and mentor students on, including [equivariant neural networks](/project/equivariant-networks/), [explainable AI](/project/explainable-ai/), and the [JetNet](/project/jetnet/) package for ML in HEP. 
 
 <sub>Last updated: 10th September 2023</sub>
 
