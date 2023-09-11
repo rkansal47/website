@@ -1,18 +1,21 @@
 ---
 title: JetNet
-summary: Developing a library and website for convenient access to jet datasets, in particle cloud representations, along with several useful utilities for jet-based machine learning development. Has been used so far for our group's MPGAN and LGAE projects, and continues to be expanded.
+summary: "Developed a library for convenient access to jet datasets, and other utilities, to increase accessibility and reproducibility in ML in particle physics. >35,000 downloads as of September 2023, used in several ML and particle physics projects."
 tags:
-- phys
-- comp
-- ml
-date: "2020-12-27T00:00:00Z"
+- ML
+- Software
+- Datasets
+- HEP
+
+date: "2021-09-01T00:00:00Z"
+weight: 40
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://github.com/rkansal47/JetNet"
 
 
 links:
-url_code: "https://github.com/rkansal47/JetNet"
+url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -24,4 +27,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides:
 ---
-More info coming soon!
+Developed a library for convenient access to jet datasets, and other utilities, to increase accessibility and reproducibility in ML in particle physics. >35,000 downloads as of September 2023, used in several ML and particle physics projects.

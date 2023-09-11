@@ -6,7 +6,7 @@
 # Appearance
 
 appearance:
-  theme_day: green_custom
+  # theme_day: green_custom
   theme_night: green_custom
   font: minimal
   font_size: L
@@ -29,7 +29,7 @@ header:
     align: l
     show_logo: true
     show_language: false
-    show_day_night: true
+    show_day_night: false
     show_search: true
     highlight_active_link: true
 
@@ -48,7 +48,7 @@ footer:
 
 locale:
   date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  time_format: ''
   address_format: en-us
 
 # Site features
@@ -91,6 +91,10 @@ features:
     provider: 'google'
     api_key: ''
     zoom: 15
+
+projects:
+  talk_view: community/event_list
+  publication_view: citation
 
 # Extensions
 

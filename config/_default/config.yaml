@@ -41,6 +41,7 @@ permalinks:
   event: '/talk/:slug/'
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
+  publications: '/publication/:slug/'
   publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
@@ -73,3 +74,8 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+
+cascade:
+  - _target:
+      path: /talks/**
+    pager: true

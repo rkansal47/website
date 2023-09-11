@@ -28,10 +28,9 @@ bio: ""
 
 # Interests to show in About widget
 interests:
-  - Generative Modelling
-  - Geometric Deep Learning
-  - Statistics
-  - Di-Higgs Searches
+  - Higgs Measurements
+  - Generative Modelling / Fast Simulations
+  - Physics-informed and Equivariant ML
 
 # Education to show in About widget
 education:
@@ -48,9 +47,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: /#contact
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: /#contact
   - icon: github
     icon_pack: fab
     link: https://github.com/rkansal47
@@ -68,9 +67,9 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  # - icon: cv
-  #   icon_pack: ai
-  #   link: uploads/resume.pdf
+  - icon: cv
+    icon_pack: ai
+    link: uploads/CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -87,10 +86,10 @@ Hi, I'm a high energy physics (HEP) PhD candidate at UCSD ([Duarte Lab](https://
 I'm developing deep generative models for LHC simulations ([MPGAN](https://github.com/rkansal47/MPGAN)). 
 I was awarded the Fermilab [Artificial Intelligence Fellow](https://lpc.fnal.gov/programs/ai-fellowships/2021/Raghav_Kansal.shtml) fellowship in 2021 to implement these for CMS. 
 
-I'm also searching for double-Higgs events and new scalar particles, which involves developing a geometric deep learning classifier for Higgs to WW jets. 
+I'm also searching for double-Higgs events and new particles, which involves developing a geometric deep learning classifier for Higgs to WW jets. 
 
 Finally, I have a number of computational side projects I work and mentor students on, including [equivariant neural networks](/project/lorentz-group-autoencoder/), [geometric deep learning for anomaly detection](/project/graph-ae/), and the [JetNet](/project/jetnet/) package for ML in HEP. 
 
-<sub>Last updated: 25th July 2022</sub>
+<sub>Last updated: 10th September 2023</sub>
 
-<sup><sub> Can you find what links the backgrounds? </sub></sup>
+<sup><sub> Can you figure out what connects the backgrounds? </sub></sup>

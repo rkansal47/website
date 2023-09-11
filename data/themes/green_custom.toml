@@ -6,7 +6,7 @@ name = "Green Custom"
     primary = "rgb(57, 192, 43)"
 
     # Menu
-    menu_primary = "rgb(57, 192, 43)"
+    menu_primary = "hsla(231, 15%, 18%, 1)"
     menu_text = "rgba(255,255,255,0.6)"
     menu_text_active = "rgb(57, 192, 43)"
     menu_title = "#fff"

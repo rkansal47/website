@@ -1,10 +1,10 @@
 ---
 title: Sequential Modeling for Soccer Predictions
-summary: Fun project mostly to gain experience with RNNs and Attention. I achieved a 71% testing accuracy in predicting the outcome of European soccer matches.
+summary: Fun project to gain experience with RNNs and Attention. I achieved a 71% testing accuracy in predicting the outcome of European football matches.
 tags:
-- ml
-- comp
+- ML
 date: "2019-04-27T00:00:00Z"
+weight: 120
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://github.com/rkansal47/SMSP"
