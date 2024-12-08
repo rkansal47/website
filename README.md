@@ -3,6 +3,7 @@
 Source Code for https://raghavkansal.com.
 
 - [Website](#website)
+  - [Building](#building)
   - [Customizations for future reference](#customizations-for-future-reference)
     - [SafeHTML for author block](#safehtml-for-author-block)
     - [SCSS](#scss)
@@ -11,6 +12,15 @@ Source Code for https://raghavkansal.com.
       - [Project Page](#project-page)
       - [Page Links (buttons)](#page-links-buttons)
       - [Views](#views)
+
+
+## Building
+
+Follow [this](https://bootstrap.hugoblox.com/getting-started/install-hugo-extended/) for building locally. The command is
+
+```bash
+hugo server
+```
 
 
 ## Customizations for future reference

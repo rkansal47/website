@@ -7,7 +7,7 @@
 
 appearance:
   # theme_day: green_custom
-  theme_night: green_custom
+  theme_night: orange_custom
   font: minimal
   font_size: L
 
@@ -37,7 +37,7 @@ header:
 
 footer:
   copyright:
-    notice: '© 2023 Raghav Kansal'
+    notice: '© 2024 Raghav Kansal. All rights reserved.'
     license:
       enable: true
       allow_derivatives: false

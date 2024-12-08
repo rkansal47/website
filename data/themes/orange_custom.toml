@@ -1,0 +1,29 @@
+# Theme metadata
+name = "Orange Custom"
+
+[dark]
+    # Primary
+    primary = "#e76f51"
+
+    # Menu
+    menu_primary = "hsla(231, 15%, 18%, 1)"
+    menu_text = "rgba(255,255,255,0.6)"
+    menu_text_active = "#e76f51"
+    menu_title = "#fff"
+
+    # Home sections
+    home_section_odd = "hsla(231, 15%, 18%, 1)"
+    home_section_even = "hsla(231, 15%, 16%, 1)"
+
+[light]
+    primary = "#e76f51"
+
+    # Menu
+    menu_primary = "#e76f51"
+    menu_text = "hsla(231, 15%, 18%, 1)"
+    menu_text_active = "#e76f51"
+    menu_title = "hsla(231, 15%, 16%, 1)"
+
+    # Home sections
+    home_section_odd = "rgba(255,255,255,0.6)"
+    home_section_even = "#fff"

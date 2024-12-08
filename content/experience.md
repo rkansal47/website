@@ -18,16 +18,26 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Machine Learning + Particle Physics Researcher
+        - title: Schmidt AI Fellow
+          company: Caltech + Fermilab
+          company_url: 'https://caltech.edu'
+          location: Chicago, USA
+          date_start: '2024-09-01'
+          date_end: ''
+          description: |
+              * High energy Higgs measurements
+              * Real-time AI
+              * Model-independent searches
+        - title: Graduate Researcher in Particle Physics + AI
           company: CMS Group / Duarte Lab, UC San Diego
           company_url: 'https://jduarte.physics.ucsd.edu'
           location: San Diego, USA
           date_start: '2019-09-01'
-          date_end: ''
+          date_end: '2024-06-18'
           description: |
-              * Developing new graph- and attention-based generative models for sparse and irregular data like that prevalent in particle physics
-              * Graph neural network (GNN) autoencoders for compression and anomaly detection, machine learning for particle flow reconstruction, Lorentz-group equivariant autoencoders, JetNet library for convenience and reproducibility in machine learning development in high energy physics
-              * Developing and applying state-of-the-art GNN classifiers to set the most stringent constraints to date on double-Higgs production, allowing insight into the metastability of the universe
+              * Developed new graph- and attention-based generative models for sparse and irregular data like that prevalent in particle physics
+              * Lorentz-group equivariant graph neural network (GNN) autoencoders for compression and anomaly detection, machine learning for particle flow reconstruction, JetNet library for convenience and reproducibility in machine learning development in high energy physics
+              * Developed and applyied GNN classifiers to set the most stringent constraints to date on double-Higgs production, allowing insight into the metastability of the universe
         - title: CERN Openlab Intern
           company: Machine Learning for Particle Physics Group, CERN
           company_url: 'https://cern.ch'
@@ -78,7 +88,7 @@ sections:
           # Apply image filters?
           filters:
             # Darken the image? Range 0-1 where 1 is transparent and 0 is opaque.
-            brightness: 0.6
+            brightness: 0.2
           #  Options are `cover` (default), `contain`, or `actual` size.
           size: cover
           # Options include `left`, `center` (default), or `right`.

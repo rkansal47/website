@@ -14,12 +14,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: PhD Candidate in Particle Physics and Machine Learning
+role: Schmidt AI Fellow
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of California, San Diego
-    url: https://ucsd.edu
+  - name: California Institute of Technology
+    url: https://caltech.edu
   - name: Fermilab
     url: https://fnal.gov
 
@@ -28,18 +28,19 @@ bio: ""
 
 # Interests to show in About widget
 interests:
-  - Higgs Measurements
-  - Generative Modelling / Fast Simulations
-  - Physics-informed and Equivariant ML
+  - High energy Higgs measurements
+  - Generative modeling
+  - Physics-informed and equivariant ML
+  - Anomaly detection
 
 # Education to show in About widget
 education:
   courses:
     - course: PhD in Physics
-      institution: University of California, San Diego, 3.97/4.00
-      year: 2019 -
+      institution: University of California San Diego <br> <a href="https://rkansal47.github.io/dissertation/"><i>Understanding the High Energy Higgs Sector with the CMS Experiment and Artificial Intelligence</i></a>
+      year: 2019 - 2024
     - course: BSc in Physics and Computer Engineering
-      institution: University of California, San Diego <br> <i>summa cum laude</i>, 3.98/4.00
+      institution: University of California San Diego <br> <i>Summa cum laude</i>
       year: 2019
 
 # Social/Academic Networking
@@ -64,12 +65,15 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=Hi8Bc4QAAAAJ&hl=en&oi=ao
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:rkansal at caltech dot edu
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/CV.pdf
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -78,18 +82,21 @@ email: ''
 highlight_name: true
 ---
 
-Hi, I'm a high energy physics (HEP) PhD candidate at UCSD ([Duarte Lab](https://jduarte.physics.ucsd.edu/)), on the [CMS](https://cms.cern) experiment at the Large Hadron Collider at CERN, and 2023 Fermilab LPC [Graduate Scholar](https://lpc.fnal.gov/programs/graduate-scholars/2023/Raghav_Kansal.shtml).
+Hi, I'm a Schmidt / AI postdoctoral fellow with a joint appointment at Caltech and Fermilab. I work on the [CMS](https://cms.cern) experiment at the CERN Large Hadron Collider on expanding our discovery potential in particle physics with AI. 
 
-![Logos](/uploads/logos.png)
+<!-- ![Logos](/uploads/logos.png) -->
 
 
+I completed my PhD at UC San Diego, where I worked on [deep generative models for particle physics simulations](/project/fast-sim/), [searches for highly energetic Higgs boson pairs](/project/higgs) using AI, [equivariant neural networks](/project/equivariant-networks/) for model-independent searches, and [more](https://www.raghavkansal.com/projects/).
+
+<!-- 
 I'm developing deep generative models for LHC simulations ([MPGAN](https://github.com/rkansal47/MPGAN)); 
 I was awarded the Fermilab [Artificial Intelligence Fellowship](https://lpc.fnal.gov/programs/ai-fellowships/2021/Raghav_Kansal.shtml) in 2021 to implement these for CMS. 
 
 I'm also searching for double-Higgs events and new particles, which involves developing a geometric deep learning classifier for Higgs to WW jets. 
 
-Finally, I have a number of computational side projects I work and mentor students on, including [equivariant neural networks](/project/equivariant-networks/), [explainable AI](/project/explainable-ai/), and the [JetNet](/project/jetnet/) package for ML in HEP. 
+Finally, I have a number of computational side projects I work and mentor students on, including [equivariant neural networks](/project/equivariant-networks/), [explainable AI](/project/explainable-ai/), and the [JetNet](/project/jetnet/) package for ML in HEP.  -->
 
-<sub>Last updated: 10th September 2023</sub>
+<sub>Last updated: 8th December 2024</sub>
 
-<sup><sub> Can you figure out what connects the backgrounds? </sub></sup>
+<sup><sub> Can you figure out what connects the different backgrounds? </sub></sup>
