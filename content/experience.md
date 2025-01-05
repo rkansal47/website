@@ -25,7 +25,7 @@ sections:
           date_start: '2024-09-01'
           date_end: ''
           description: |
-              * High energy Higgs measurements
+              * High energy Higgs measurements 
               * Real-time AI
               * Model-independent searches
         - title: Graduate Researcher in Particle Physics + AI
