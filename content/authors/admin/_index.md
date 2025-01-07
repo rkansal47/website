@@ -97,6 +97,6 @@ I'm also searching for double-Higgs events and new particles, which involves dev
 
 Finally, I have a number of computational side projects I work and mentor students on, including [equivariant neural networks](/project/equivariant-networks/), [explainable AI](/project/explainable-ai/), and the [JetNet](/project/jetnet/) package for ML in HEP.  -->
 
-<sub>Last updated: 8th December 2024</sub>
+<sub>Last updated: 7th January 2025</sub>
 
-<sup><sub> Can you figure out what connects the different backgrounds? </sub></sup>
+<!-- <sup><sub> Can you figure out what connects the backgrounds on the different pages? </sub></sup> -->
