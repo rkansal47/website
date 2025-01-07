@@ -51,4 +51,27 @@ main:
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
   - name: CV
     url: uploads/CV.pdf
-    weight: 130
+    weight: 100
+  - name: Blog
+    url: https://rkansal47.github.io/
+    weight: 110
+  - name: Notes and Tutorials
+    identifier: Notes
+    url: https://rkansal47.github.io/#notes
+    weight: 120
+  - name: "Stats for HEP"
+    parent: Notes
+    url: https://rkansal47.github.io/stats-for-hep/
+    weight: 20
+  - name: "ML for HEP"
+    parent: Notes
+    url: https://fnallpc.github.io/machine-learning-hats/
+    weight: 30
+  - name: "Standard Model"
+    parent: Notes
+    url: https://rkansal47.github.io/standard-model/
+    weight: 10
+  - name: "LHC and CMS"
+    parent: Notes
+    url: https://rkansal47.github.io/dissertation/ExperimentalBackground.html
+    weight: 40

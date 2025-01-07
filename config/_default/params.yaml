@@ -18,7 +18,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: "Raghav Kansal's website"
+    description: "Raghav's website"
     twitter: 'rkansal47'
 
 # Site header
@@ -29,7 +29,7 @@ header:
     align: l
     show_logo: true
     show_language: false
-    show_day_night: false
+    show_day_night: true
     show_search: true
     highlight_active_link: true
 
@@ -37,7 +37,7 @@ header:
 
 footer:
   copyright:
-    notice: '© 2024 Raghav Kansal. All rights reserved.'
+    notice: '© 2025 Raghav Kansal. All rights reserved.'
     license:
       enable: true
       allow_derivatives: false

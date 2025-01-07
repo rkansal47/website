@@ -18,3 +18,40 @@
 .article-container {
   max-width: 1000px;
 }
+
+.dark a:not(.btn, .navbar-brand):hover, .dark a:not(.btn):focus {
+  transition: 0.2s;
+  color: #b35317;
+  text-decoration: none;
+}
+
+.dark a:not(.btn) {
+  transition: 0.2s;
+}
+
+.dark #navbar-main .main-menu-item ul li .nav-link:hover {
+  color: $primary;
+  transition: 0.2s;
+}
+
+.dropdown-item:hover {
+  color: $primary !important;
+  transition: 0.2s;
+}
+
+
+/* Safari-only hack (desktop + iOS) */
+@media not all and (min-resolution:.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    .parallax {
+      background-attachment: scroll !important;
+    }
+  }
+}
+
+@supports (-webkit-appearance: none) and (stroke-color: transparent) {
+  /* Safari 16+? Possibly. Mileage may vary. */
+  .parallax {
+    background-attachment: scroll !important;
+  }
+}
