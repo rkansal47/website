@@ -82,18 +82,18 @@ email: ''
 highlight_name: true
 ---
 
-Hi, I'm a Schmidt / AI postdoctoral fellow with a joint appointment at Caltech and Fermilab. I work on the [CMS](https://cms.cern) experiment at the CERN Large Hadron Collider on expanding our discovery potential in particle physics with AI. 
+Hi, I'm a Schmidt / AI postdoctoral fellow with a joint appointment at Caltech and Fermilab. I work on the [CMS](https://cms.cern) experiment at the CERN Large Hadron Collider on expanding our discovery potential in particle physics with AI.
 
 <!-- ![Logos](/uploads/logos.png) -->
 
 
 I completed my PhD at UC San Diego, where I worked on [deep generative models for particle physics simulations](/project/fast-sim/), [searches for highly energetic Higgs boson pairs](/project/higgs) using AI, [equivariant neural networks](/project/equivariant-networks/) for model-independent searches, and [more](https://www.raghavkansal.com/projects/).
 
-<!-- 
-I'm developing deep generative models for LHC simulations ([MPGAN](https://github.com/rkansal47/MPGAN)); 
-I was awarded the Fermilab [Artificial Intelligence Fellowship](https://lpc.fnal.gov/programs/ai-fellowships/2021/Raghav_Kansal.shtml) in 2021 to implement these for CMS. 
+<!--
+I'm developing deep generative models for LHC simulations ([MPGAN](https://github.com/rkansal47/MPGAN));
+I was awarded the Fermilab [Artificial Intelligence Fellowship](https://lpc.fnal.gov/programs/ai-fellowships/2021/Raghav_Kansal.shtml) in 2021 to implement these for CMS.
 
-I'm also searching for double-Higgs events and new particles, which involves developing a geometric deep learning classifier for Higgs to WW jets. 
+I'm also searching for double-Higgs events and new particles, which involves developing a geometric deep learning classifier for Higgs to WW jets.
 
 Finally, I have a number of computational side projects I work and mentor students on, including [equivariant neural networks](/project/equivariant-networks/), [explainable AI](/project/explainable-ai/), and the [JetNet](/project/jetnet/) package for ML in HEP.  -->
 

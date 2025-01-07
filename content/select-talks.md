@@ -12,16 +12,16 @@ sections:
       filters:
         folders:
           - event
-        featured_only: true 
+        featured_only: true
       archive:
-        text: "See all" 
+        text: "See all"
         link: /talks
       count: 100
     design:
       columns: '1'
       view: community/event_card
       background:
-        image: 
+        image:
           # Name of image in `assets/media/`.
           filename: talksbg.jpg
           # Apply image filters?

@@ -49,7 +49,7 @@ sections:
       columns: '1'
       view: community/event_list
       background:
-        image: 
+        image:
           # Name of image in `assets/media/`.
           filename: talksbg.jpg
           # Apply image filters?

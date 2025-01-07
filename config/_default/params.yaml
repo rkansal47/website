@@ -57,7 +57,7 @@ features:
   syntax_highlighter:
     theme_light: github-light
     theme_dark: dracula
-  math: 
+  math:
     enable: true
   privacy_pack:
     enable: false

@@ -9,7 +9,7 @@ sections:
     id: projects
     content:
       title: Projects
-      subtitle: "Click the projects below to see related publications, talks, and more info." 
+      subtitle: "Click the projects below to see related publications, talks, and more info."
       filters:
         folders:
           - project
@@ -40,7 +40,7 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
       background:
-        image: 
+        image:
           # Name of image in `assets/media/`.
           filename: projectsbg2.jpg
           # Apply image filters?

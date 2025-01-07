@@ -37,7 +37,7 @@ sections:
           description: |
               * Developed new graph- and attention-based generative models for sparse and irregular data like that prevalent in particle physics
               * Lorentz-group equivariant graph neural network (GNN) autoencoders for compression and anomaly detection, machine learning for particle flow reconstruction, JetNet library for convenience and reproducibility in machine learning development in high energy physics
-              * Developed and applyied GNN classifiers to set the most stringent constraints to date on double-Higgs production, allowing insight into the metastability of the universe
+              * Developed and applied GNN classifiers to set the most stringent constraints to date on double-Higgs production, allowing insight into the metastability of the universe
         - title: CERN Openlab Intern
           company: Machine Learning for Particle Physics Group, CERN
           company_url: 'https://cern.ch'
@@ -82,7 +82,7 @@ sections:
     design:
       columns: '2'
       background:
-        image: 
+        image:
           # Name of image in `assets/media/`.
           filename: expbg.jpg
           # Apply image filters?

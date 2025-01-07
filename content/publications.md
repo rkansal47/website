@@ -45,7 +45,7 @@ sections:
       columns: '1'
       view: community/citation_card
       background:
-        image: 
+        image:
           # Name of image in `assets/media/`.
           filename: publicationsallbg.jpg
           # Apply image filters?

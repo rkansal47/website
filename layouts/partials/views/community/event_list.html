@@ -45,7 +45,7 @@
   {{ else }}
   <span class="summary">{{ $item.Params.event }}</span>,
   {{ end }}
-  <a href="{{ $talk_link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a> 
+  <a href="{{ $talk_link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
 
   {{ if eq $item.Type "event" }}
   <div class="article-metadata">

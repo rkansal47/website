@@ -21,7 +21,7 @@ sections:
       columns: '2'
       view: community/transparent_card
       background:
-        image: 
+        image:
           # Name of image in `assets/media/`.
           filename: publicationsbg.jpg
           # Apply image filters?

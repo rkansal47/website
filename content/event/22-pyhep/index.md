@@ -5,7 +5,7 @@ event: PyHEP 2022 Workshop
 event_url: https://indico.cern.ch/event/1150631/
 
 location: 'Virtual'
-location_link: 
+location_link:
 
 talk_type: Talk
 

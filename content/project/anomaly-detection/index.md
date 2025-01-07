@@ -29,5 +29,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides:
 ---
-Developed several approaches for finding rare particle collisions, including GNNs, Lorentz-equivariant networks, and multi-variate goodness-of-fit tests. 
+Developed several approaches for finding rare particle collisions, including GNNs, Lorentz-equivariant networks, and multi-variate goodness-of-fit tests.
 More info coming soon!

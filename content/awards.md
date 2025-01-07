@@ -86,7 +86,7 @@ sections:
     design:
       columns: '2'
       background:
-        image: 
+        image:
           # Name of image in `assets/media/`.
           filename: awardsbg.jpg
           # Apply image filters?

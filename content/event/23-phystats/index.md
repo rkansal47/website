@@ -7,7 +7,7 @@ event_url: https://indico.cern.ch/event/1258983/
 talk_type: Talk
 
 location: 'Virtual'
-location_link: 
+location_link:
 
 summary: ''
 abstract: ""
