@@ -99,4 +99,4 @@ Finally, I have a number of computational side projects I work and mentor studen
 
 <sub>Last updated: 7th January 2025</sub>
 
-<!-- <sup><sub> Can you figure out what connects the backgrounds on the different pages? </sub></sup> -->
+<sup><sub> Can you figure out what connects the different backgrounds? </sub></sup>
