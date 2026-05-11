@@ -5,6 +5,9 @@
 [build.environment]
   HUGO_VERSION = "0.161.1"
   HUGO_ENABLEGITINFO = "true"
+  # Pin Node to the current active LTS. Netlify still defaults to Node 18 for
+  # legacy projects and warns that "Agent Runners work best with Node.js 22+".
+  NODE_VERSION = "22"
 
 [context.production.environment]
   HUGO_ENV = "production"
