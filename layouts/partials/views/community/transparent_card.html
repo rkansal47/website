@@ -42,12 +42,18 @@
   {{ end }}
 
   {{ $resource := partial "functions/get_featured_image.html" $item }}
-  {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
   {{ with $resource }}
-    {{ $image := .Fill (printf "808x455 webp %s" $anchor) }}
+    {{/* `.Fit` preserves the source aspect ratio (no smart-cropping). The CSS
+         rule for `.view-card .article-banner` then scales the image with
+         `object-fit: contain`, letterboxing any leftover space with the
+         card's dark background. 1×/2× srcset for retina sharpness. */}}
+    {{ $image_1x := .Fit "808x455 webp" }}
+    {{ $image_2x := .Fit "1616x910 webp" }}
     <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
       <div class="img-hover-zoom">
-        <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
+        <img src="{{ $image_1x.RelPermalink }}"
+            srcset="{{ $image_1x.RelPermalink }} 1x, {{ $image_2x.RelPermalink }} 2x"
+            height="{{ $image_1x.Height }}" width="{{ $image_1x.Width }}"
             class="article-banner" alt="{{ $item.Title }}" loading="lazy">
       </div>
     </a>

@@ -8,10 +8,46 @@
     // }
   }
 
+// Highlight publication cards (/select-pubs/) use `.Fit` instead of `.Fill`
+// for the featured image so figures aren't cropped. Let the image keep its
+// natural aspect ratio: width fills the card, height scales proportionally
+// from the image's intrinsic dimensions (encoded in the <img width/height>
+// attributes by Hugo). A max-height keeps super-tall portraits in check;
+// `object-fit: contain` only kicks in when that cap clamps the image.
+.view-card .article-banner {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: contain;
+}
+
 .article-metadata {
   .author-highlighted {
     font-weight: bold;
     color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+// Highlight the journal/conference name in the brand color so the venue
+// stands out at a glance on listings (citation card + transparent card).
+// `.pub-publication` is wowchemy's metadata span on /select-pubs/; the
+// inline span comes from the `community/citation_card.html` override.
+.pub-publication,
+.pub-publication * {
+  color: $primary;
+  font-weight: 600;
+}
+
+// On the all-publications listing (citation_card view), make the paper
+// title link blue so it reads clearly against the orange venue accent.
+// Direct-child selector keeps action buttons (Cite, PDF, etc.) untouched.
+.pub-list-item.view-citation > a {
+  color: #5dade2;
+
+  &:hover,
+  &:focus {
+    color: lighten(#5dade2, 8%);
+    text-decoration: underline;
   }
 }
 

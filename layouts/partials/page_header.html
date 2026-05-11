@@ -1,0 +1,121 @@
+{{- /*
+  Local override of wowchemy/v5 page_header.html.
+
+  The upstream template resizes the featured image to the *displayed* CSS
+  width (e.g. Fit "720x2500" for the default column-width placement). On
+  high-DPR (retina, 4K, mobile) screens that source is half what the browser
+  needs, so the image looks soft. Here we keep the displayed `width`/
+  `max-width` at the 1× dimensions but add a `srcset` with a 2× variant so
+  high-density displays get a sharp image.
+*/ -}}
+{{ $page := . }}
+{{ $featured := partial "wowchemy-core/functions/get_featured_image.html" $page }}
+
+{{ $anchor := $page.Params.image.focal_point | default "Smart" }}
+
+{{/* Set default titles for node pages */}}
+{{ $title := .Title }}
+{{ if and (not $title) .IsNode }}
+  {{ if eq .Type "post" }}
+    {{ $title = i18n "posts" }}
+  {{ else if eq .Type "event" }}
+    {{ $title = i18n "talks" }}
+  {{ else if eq .Type "publication" }}
+    {{ $title = i18n "publications" }}
+  {{end}}
+{{end}}
+
+{{/* Banner image */}}
+{{ if and .Params.banner.image (not (and $featured (not .Params.image.preview_only))) }}
+<div class="article-header">
+  {{- $img := "" -}}
+  {{ $alt := (.Params.banner.caption | default "") | plainify }}
+  {{ $destination := .Params.banner.image }}
+  {{ $is_remote := strings.HasPrefix $destination "http" }}
+  {{- if not $is_remote -}}
+    {{- $img = (.Page.Resources.ByType "image").GetMatch $destination -}}
+    {{- if not $img -}}
+      {{- $img = resources.Get (path.Join "media" $destination) -}}
+    {{- end -}}
+  {{- end -}}
+  {{ if $img }}
+    <img src="{{$img.RelPermalink}}" width="{{$img.Width}}" height="{{$img.Height}}" class="article-banner" alt="{{$alt}}">
+  {{ else }}
+    <img src="{{ .Params.banner.image }}" class="article-banner" alt="{{$alt}}">
+  {{ end }}
+
+  {{ with .Params.banner.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
+</div>
+{{end}}
+
+{{/* Featured image layout */}}
+{{ if and $featured (not .Params.image.preview_only) }}
+
+{{/* Determine image placement and pick a 1× display size + 2× retina source. */}}
+{{ $placement := .Params.image.placement | default 1 }}
+{{ $image_container := "" }}
+{{ $image_1x := $featured }}
+{{ $image_2x := $featured }}
+{{ if eq $placement 2 }}
+  {{ $image_container = "container" }}
+  {{ $image_1x = $featured.Fit "1200x2500" }}
+  {{ $image_2x = $featured.Fit "2400x5000" }}
+{{ else if eq $placement 3 }}
+  {{ $image_container = "container-fluid" }}
+  {{ $image_1x = $featured.Fit "2560x2560" }}
+  {{ $image_2x = $featured.Fit "5120x5120" }}
+{{ else }}
+  {{ $image_container = "article-container" }}
+  {{ $image_1x = $featured.Fit "720x2500" }}
+  {{ $image_2x = $featured.Fit "1440x5000" }}
+{{ end }}
+{{ if ne $image_1x.MediaType.SubType "gif" }}
+  {{ $image_1x = $image_1x.Process "webp" }}
+  {{ $image_2x = $image_2x.Process "webp" }}
+{{ end }}
+
+<div class="article-container pt-3">
+  <h1>{{ $title }}</h1>
+
+  {{ with $page.Params.subtitle }}
+  <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
+  {{end}}
+
+  {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+  {{ partial "page_links_div.html" $page }}
+</div>
+
+{{/* Featured image */}}
+<div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-4" style="max-width: {{$image_1x.Width}}px; max-height: {{$image_1x.Height}}px;">
+  <div style="position: relative">
+    <img
+      src="{{ $image_1x.RelPermalink }}"
+      srcset="{{ $image_1x.RelPermalink }} 1x, {{ $image_2x.RelPermalink }} 2x"
+      width="{{ $image_1x.Width }}"
+      height="{{ $image_1x.Height }}"
+      alt="{{ with $.Params.image.alt_text }}{{.}}{{ end }}"
+      class="featured-image">
+    {{ with $.Params.image.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
+  </div>
+</div>
+{{ else }}
+  {{/* Case when page has no image */}}
+
+  {{/* Wider container for nodes */}}
+  {{ $ctnr := "article-container" }}
+  {{ if $page.IsNode }}
+    {{ $ctnr = "universal-wrapper" }}
+  {{end}}
+<div class="{{$ctnr}} pt-3">
+  <h1>{{ $title }}</h1>
+
+  {{ with $page.Params.subtitle }}
+  <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
+  {{end}}
+
+  {{ if not .IsNode }}
+    {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+    {{ partial "page_links_div.html" $page }}
+  {{end}}
+</div>
+{{end}}

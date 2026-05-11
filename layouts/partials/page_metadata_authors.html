@@ -1,0 +1,44 @@
+{{- /*
+  Local override of wowchemy/v5 page_metadata_authors.html.
+
+  The upstream partial iterates `(.GetTerms "authors")`, which under the
+  `cascade: build.render: never` we set on `content/authors/_index.md` only
+  returns the one author term that has a real content folder
+  (`content/authors/admin/`). Auto-generated taxonomy terms for non-profile
+  authors get filtered out, so co-authors silently disappear from listings.
+
+  Iterate `Params.authors` directly instead — that's the canonical author
+  list per page. Link to a profile page if we find a matching folder under
+  `content/authors/<slug>/`, otherwise just print the name.
+
+  Also keeps the existing `author_notes` tooltips and the `highlight_name`
+  bold styling for the page owner ('admin').
+*/ -}}
+{{- $page := . -}}
+{{- $highlight_name := $page.Params.highlight_name | default false -}}
+{{- with $page.Params.authors -}}
+  {{- range $index, $name := . -}}
+    {{- if gt $index 0 }}, {{ end -}}
+    {{- $author_page := site.GetPage (printf "/authors/%s" $name) -}}
+    {{/* Only treat the page as a real profile if it has a backing content
+         file (i.e. an explicit `content/authors/<slug>/_index.md`). Hugo
+         auto-generates taxonomy term pages for every unique author value
+         too, but those should not get linked or styled differently — that
+         was making random co-authors look like featured profiles. */}}
+    {{- $has_profile := and $author_page $author_page.File -}}
+    {{- $display := cond $has_profile $author_page.Title $name -}}
+    {{- $is_admin := eq $name "admin" -}}
+    <span {{ if or $is_admin $highlight_name }}class="author-highlighted"{{ end }}>
+      {{- if $has_profile -}}
+        <a href="{{ $author_page.RelPermalink }}">{{ $display }}</a>
+      {{- else -}}
+        {{- $display -}}
+      {{- end -}}
+    </span>
+    {{- if isset $page.Params "author_notes" -}}
+      {{- with (index $page.Params.author_notes $index) -}}
+        <i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="{{ . }}"></i>
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

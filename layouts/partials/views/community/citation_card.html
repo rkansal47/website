@@ -13,9 +13,9 @@
   ({{- $item.Date.Format "2006" -}}).
   <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>.
   {{ if $item.Params.publication_short }}
-    {{- $item.Params.publication_short | markdownify -}}.
+    <span class="pub-publication">{{- $item.Params.publication_short | markdownify -}}</span>.
   {{ else if $item.Params.publication }}
-    {{- $item.Params.publication | markdownify -}}.
+    <span class="pub-publication">{{- $item.Params.publication | markdownify -}}</span>.
   {{ end }}
 
   <!-- {{ if $item.Params.summary }}

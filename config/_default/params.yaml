@@ -96,6 +96,10 @@ projects:
   talk_view: community/event_list
   publication_view: citation
 
+publications:
+  citation_style: apa
+  date_format: '2006'
+
 # Extensions
 
 extensions:
