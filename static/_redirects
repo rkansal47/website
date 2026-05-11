@@ -1,0 +1,3 @@
+# Legacy /publication/* URLs were renamed to /publications/* in May 2026.
+# Forward old links (search engines, bookmarks, citations) to the new section.
+/publication/*  /publications/:splat  301

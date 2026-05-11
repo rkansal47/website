@@ -1,0 +1,9 @@
+{{- /*
+  Wowchemy ships landing/single.html but not landing/list.html, so a section's
+  _index.md with `type: landing` falls back to _default/list.html and ignores
+  the `sections:` block builder. Mirror the single template here so landing
+  pages also work as section indexes (e.g. /publications/).
+*/ -}}
+{{- define "main" -}}
+  {{ partial "landing_page.html" . }}
+{{- end -}}

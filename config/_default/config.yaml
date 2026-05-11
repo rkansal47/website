@@ -44,7 +44,6 @@ permalinks:
   event: '/talk/:slug/'
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
-  publications: '/publication/:slug/'
   publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:

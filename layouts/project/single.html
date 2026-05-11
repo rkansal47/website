@@ -26,10 +26,10 @@
       {{ end }}
 
       <!-- filter only featured publications (commenting actually doesn't stop execution - the order has to be changed to do this) -->
-      <!-- {{ $items_all := where (where site.RegularPages "Type" "publication") ".Params.projects" "intersect" (slice $project) }}
-      {{ $items_featured := where (where site.RegularPages "Type" "publication") ".Params.featured" true }}
+      <!-- {{ $items_all := where (where site.RegularPages "Type" "publications") ".Params.projects" "intersect" (slice $project) }}
+      {{ $items_featured := where (where site.RegularPages "Type" "publications") ".Params.featured" true }}
       {{ $items := $items_all | intersect $items_featured }} -->
-      {{ $items := where (where site.RegularPages "Type" "publication") ".Params.projects" "intersect" (slice $project) }}
+      {{ $items := where (where site.RegularPages "Type" "publications") ".Params.projects" "intersect" (slice $project) }}
       {{ $pubs_len := len $items }}
       {{ if ge $pubs_len 1 }}
         <h2>Publications</h2>

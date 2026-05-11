@@ -11,7 +11,7 @@ sections:
       title: Selected Publications
       filters:
         folders:
-          - publication
+          - publications
         featured_only: true
       archive:
         text: See all

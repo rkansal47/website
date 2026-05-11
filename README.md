@@ -46,9 +46,14 @@ The wowchemy theme (now defunct, succeeded by HugoBlox) was last released agains
 - [`layouts/partials/analytics/google_analytics.html`](layouts/partials/analytics/google_analytics.html) and [`layouts/partials/components/feedback.html`](layouts/partials/components/feedback.html) — replace removed `site.GoogleAnalytics` with `site.Config.Services.GoogleAnalytics.ID`.
 - [`layouts/_default/baseof.html`](layouts/_default/baseof.html) — fixes a bug in the theme's `{{with .File}}` block (it dereferenced `.File.UniqueID` instead of `.UniqueID`, which the new `*source.File` type rejects).
 - [`layouts/partials/functions/get_featured_image.html`](layouts/partials/functions/get_featured_image.html) — shim that forwards to the new namespaced `wowchemy-core/functions/get_featured_image.html` (a few v5.9.0 call sites still use the old un-namespaced path).
-- `content/{event,publication}/_index.md` use string view names (`card`, `citation`) instead of numeric ones (`3`, `4`); modern Hugo decodes integers as `uint64` which the theme's view dispatcher doesn't handle.
+- [`layouts/landing/list.html`](layouts/landing/list.html) — wowchemy ships `landing/single.html` but no `landing/list.html`, so a section's `_index.md` with `type: landing` falls back to `_default/list.html` and ignores the `sections:` block builder. This shim mirrors the single template so landing pages also work as section indexes (e.g. `content/publications/_index.md` → `/publications/`).
+- `content/{event,publications}/_index.md` use string view names (`card`, `citation`) instead of numeric ones (`3`, `4`); modern Hugo decodes integers as `uint64` which the theme's view dispatcher doesn't handle.
 - `config/_default/languages.yaml` uses `locale:` instead of the deprecated `languageCode:`.
 - `config/_default/config.yaml` uses `pagination.pagerSize` instead of the deprecated top-level `paginate:`.
+
+### Publications URL
+
+The publications section lives under `content/publications/` (plural) so individual papers render at `/publications/<slug>/` and the section landing at `/publications/`. The older `/publication/*` URLs (used through May 2026) are 301-redirected via [`static/_redirects`](static/_redirects) on Netlify.
 
 To configure Google Analytics, set the GA tag in `config/_default/config.yaml`:
 
