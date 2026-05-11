@@ -32,7 +32,10 @@ module:
 
 enableGitInfo: false
 summaryLength: 30
-paginate: 10
+# `paginate` was deprecated in Hugo v0.128.0 in favor of the
+# `pagination` map.
+pagination:
+  pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>

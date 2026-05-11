@@ -4,7 +4,10 @@
 
 # Default language
 en:
-  languageCode: en-us
+  # Hugo deprecated `languageCode` at the language level in v0.158.0.
+  # `locale` controls date/number formatting; the BCP47 language tag
+  # is now derived from the language key (`en`).
+  locale: en_US
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
 

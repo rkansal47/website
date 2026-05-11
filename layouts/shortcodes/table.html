@@ -1,0 +1,67 @@
+{{/* Table shortcode override.
+
+  Original: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
+            layouts/shortcodes/table.html
+
+  The upstream version uses `getCSV`, which was removed in Hugo v0.123.0.
+  This override loads CSV data via `os.ReadFile` + `transform.Unmarshal`
+  for local files and `resources.GetRemote` for URLs.
+
+  Parameters
+  ----------
+  path :
+      Path or URL to the CSV. Local paths are resolved relative to the
+      page directory (matching upstream behavior).
+  delimiter : default ","
+      Field delimiter.
+  header : default "true"
+      If "true", the first row is rendered as the table header.
+  caption : optional
+      Caption for the table.
+*/}}
+
+{{ $src := .Get "path" }}
+{{ $delimiter := .Get "delimiter" | default "," }}
+{{ $useHeaderRow := (eq (lower (.Get "header")) "true") | default true }}
+{{ $caption := .Get "caption" }}
+
+{{ $rows := slice }}
+{{ $is_remote := strings.HasPrefix $src "http" }}
+
+{{ if $is_remote }}
+  {{ with resources.GetRemote $src }}
+    {{ with .Err }}
+      {{ errorf "Unable to fetch CSV %q: %s" $src . }}
+    {{ else }}
+      {{ $rows = . | transform.Unmarshal (dict "delimiter" $delimiter) }}
+    {{ end }}
+  {{ else }}
+    {{ errorf "Unable to fetch CSV %q" $src }}
+  {{ end }}
+{{ else }}
+  {{ $full_path := path.Join "content" $.Page.File.Dir $src }}
+  {{ $data := os.ReadFile $full_path }}
+  {{ $rows = $data | transform.Unmarshal (dict "delimiter" $delimiter) }}
+{{ end }}
+
+<table class="table">
+  {{ if $useHeaderRow }}
+    {{ $headerRow := index $rows 0 }}
+    {{ $rows = after 1 $rows }}
+    <tr> {{ range $headerRow }} <th>{{ . | markdownify | emojify }}</th> {{ end }} </tr>
+  {{ end }}
+  {{ range $rows }}
+    <tr>
+      {{ range . }}
+        {{ if (findRE "^\\d+$" .) }}
+          <td data-table-dtype="number">{{ . }}</td>
+        {{ else }}
+          <td data-table-dtype="text">{{ . | markdownify | emojify }}</td>
+        {{ end }}
+      {{ end }}
+    </tr>
+  {{ end }}
+  {{ if $caption }}
+    <caption>{{ $caption | markdownify | emojify }}</caption>
+  {{ end }}
+</table>

@@ -16,10 +16,46 @@ Source Code for https://raghavkansal.com.
 
 ## Building
 
-Follow [this](https://bootstrap.hugoblox.com/getting-started/install-hugo-extended/) for building locally. The command is
+Install the toolchain (Hugo Extended is required for SCSS; Go is required because the theme is loaded as a Hugo Module):
 
 ```bash
+brew install hugo go
+```
+
+Fetch theme modules and run the dev server:
+
+```bash
+hugo mod get -u
+hugo mod tidy
 hugo server
+```
+
+The site is then served at <http://localhost:1313>.
+
+To reproduce the production build that Netlify generates into `public/`:
+
+```bash
+hugo --gc --minify
+```
+
+### Modern Hugo compatibility shims
+
+The wowchemy theme (now defunct, succeeded by HugoBlox) was last released against Hugo ~0.111. Several local overrides keep it building on current Hugo (≥ 0.123 removed `getCSV`, ≥ 0.145 removed `_build`, etc.):
+
+- [`layouts/shortcodes/table.html`](layouts/shortcodes/table.html) — replaces removed `getCSV` with `os.ReadFile` + `transform.Unmarshal`.
+- [`layouts/partials/analytics/google_analytics.html`](layouts/partials/analytics/google_analytics.html) and [`layouts/partials/components/feedback.html`](layouts/partials/components/feedback.html) — replace removed `site.GoogleAnalytics` with `site.Config.Services.GoogleAnalytics.ID`.
+- [`layouts/_default/baseof.html`](layouts/_default/baseof.html) — fixes a bug in the theme's `{{with .File}}` block (it dereferenced `.File.UniqueID` instead of `.UniqueID`, which the new `*source.File` type rejects).
+- [`layouts/partials/functions/get_featured_image.html`](layouts/partials/functions/get_featured_image.html) — shim that forwards to the new namespaced `wowchemy-core/functions/get_featured_image.html` (a few v5.9.0 call sites still use the old un-namespaced path).
+- `content/{event,publication}/_index.md` use string view names (`card`, `citation`) instead of numeric ones (`3`, `4`); modern Hugo decodes integers as `uint64` which the theme's view dispatcher doesn't handle.
+- `config/_default/languages.yaml` uses `locale:` instead of the deprecated `languageCode:`.
+- `config/_default/config.yaml` uses `pagination.pagerSize` instead of the deprecated top-level `paginate:`.
+
+To configure Google Analytics, set the GA tag in `config/_default/config.yaml`:
+
+```yaml
+services:
+  googleAnalytics:
+    ID: G-XXXXXXXXXX
 ```
 
 
