@@ -2,6 +2,15 @@
 # Display name
 title: Raghav Kansal
 
+# `content/authors/_index.md` cascades `build.render: never` to all author
+# pages so co-author taxonomy terms don't render. Override here so the
+# admin profile page itself is built and its page bundle resources
+# (avatar.jpeg, etc.) are processed and accessible to about.biography.
+build:
+  render: always
+  list: always
+  publishResources: true
+
 # Full name (for SEO)
 first_name: Raghav
 last_name: Kansal
