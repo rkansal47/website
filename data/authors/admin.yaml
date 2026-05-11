@@ -1,0 +1,183 @@
+schema: hugoblox/author/v1
+slug: admin
+is_owner: true
+name:
+  display: Raghav Kansal
+  given: Raghav
+  family: Kansal
+  pronouns: he/him
+status:
+  icon: "☕️"
+role: Schmidt AI Fellow
+bio: |
+  Hi, I'm a Schmidt / AI postdoctoral fellow with a joint appointment at
+  Caltech and Fermilab. I work on the [CMS](https://cms.cern) experiment
+  at the CERN Large Hadron Collider on expanding our discovery potential
+  in particle physics with AI.
+
+  I completed my PhD at UC San Diego, where I worked on
+  [deep generative models for particle physics simulations](/projects/fast-sim/),
+  [searches for highly energetic Higgs boson pairs](/projects/higgs) using
+  AI, [equivariant neural networks](/projects/equivariant-networks/) for
+  model-independent searches, and [more](/projects/).
+
+affiliations:
+  - name: California Institute of Technology
+    url: https://caltech.edu
+  - name: Fermilab
+    url: https://fnal.gov
+
+interests:
+  - High energy Higgs measurements
+  - Generative modeling
+  - Physics-informed and equivariant ML
+  - Anomaly detection
+
+education:
+  - degree: PhD in Physics
+    institution: University of California San Diego
+    start: 2019-09-01
+    end: 2024-06-30
+    summary: |
+      Thesis: [*Understanding the High Energy Higgs Sector with the CMS
+      Experiment and Artificial Intelligence*](https://rkansal47.github.io/dissertation/)
+  - degree: BSc in Physics and Computer Engineering
+    institution: University of California San Diego
+    start: 2015-09-01
+    end: 2019-06-30
+    summary: |
+      *Summa cum laude*
+
+experience:
+  - role: Schmidt AI Fellow
+    org: Caltech + Fermilab
+    start: 2024-09-01
+    summary: |
+      * High energy Higgs measurements
+      * Real-time AI
+      * Model-independent searches
+  - role: Graduate Researcher in Particle Physics + AI
+    org: CMS Group / Duarte Lab, UC San Diego
+    start: 2019-09-01
+    end: 2024-06-18
+    summary: |
+      * Developed new graph- and attention-based generative models for
+        sparse and irregular data like that prevalent in particle physics
+      * Lorentz-group equivariant graph neural network (GNN) autoencoders
+        for compression and anomaly detection, machine learning for
+        particle flow reconstruction, JetNet library for convenience and
+        reproducibility in machine learning development in high energy
+        physics
+      * Developed and applied GNN classifiers to set the most stringent
+        constraints to date on double-Higgs production, allowing insight
+        into the metastability of the universe
+  - role: CERN Openlab Intern
+    org: Machine Learning for Particle Physics Group, CERN
+    start: 2019-06-01
+    end: 2019-08-01
+    summary: |
+      * Started our project on graph generative models for particle
+        physics simulations, motivated primarily by the CMS experiment's
+        new High Granularity Calorimeter (HGCAL)
+  - role: Experimental Quantum Information Science Researcher
+    org: Barreiro Lab, UC San Diego
+    start: 2017-06-01
+    end: 2019-06-01
+    summary: |
+      * Designed and implemented a setup for a quantum gas microscope
+        (QGM) to image with single-site resolution
+      * Generated 2D dynamic, arbitrarily arranged, sub-micron optical
+        tweezers, integrated with the QGM, via two methods, using:
+        1) a Digital Micromirror Device (i.e. holography), and 2) an
+        acousto-optic deflector
+      * Characterized a high (0.8) Numerical Aperture objective for the
+        QGM using OSLO optical simulations and point-spread function
+        image analysis in Python
+      * Using an FPGA device, outputted RF waveforms that modulate laser
+        beams with parabolic spatial intensity in order to produce a
+        Bose-Einstein Condensate
+      * Programmed FPGA and C electronic devices, and created and (3D)
+        printed mechanical mounts and electronics circuits for
+        experimental use
+  - role: Neurophysics Researcher
+    org: Kleinfeld Lab, UC San Diego
+    start: 2018-09-01
+    end: 2019-06-01
+    summary: |
+      * Used two-photon microscopy to measure pO2 in the mouse
+        somatosensory cortex
+      * Imaged the cortex to measure vasomotion relative to pO2
+  - role: Software Intern
+    org: Focus Analytics
+    start: 2016-07-01
+    end: 2016-09-01
+    summary: |
+      * Interned at a software startup which has since been bought by Moka
+      * Developed and deployed a location prediction SparkJava server
+        with Cassandra and Redis databases
+      * Implemented ML k-means clustering and SVM linear classification
+        algorithms on location data
+
+awards:
+  - title: Fermilab LPC Graduate Scholarship
+    awarder: Fermilab
+    date: "2023-05-01"
+    summary: For searches for flavour changing neutral currents, ML for simulation, and self-supervised learning for jet classification.
+    url: https://lpc.fnal.gov/programs/graduate-scholars/index_2023.shtml
+    icon: hero/trophy
+  - title: 2021-22 Carol and George Lattimer Award for Graduate Excellence
+    awarder: UC San Diego Division of Physical Sciences
+    date: "2021-11-24"
+    summary: One of two recipients of this award, which "honors outstanding graduate students in the Division of Physical Sciences who seek interdisciplinary approaches to problem solving and have a strong commitment to education, mentorship, and service."
+    icon: hero/trophy
+  - title: Fermilab LPC Artificial Intelligence Fellowship
+    awarder: Fermilab
+    date: "2020-09-01"
+    summary: For ML-based fast simulation software, ML techniques for reconstruction, compression, and anomaly detection tasks, and a boosted Higgs to WW tagger for precision measurements.
+    url: https://lpc.fnal.gov/programs/ai-fellowships/index_2021.shtml
+    icon: hero/trophy
+  - title: CERN Openlab Summer Students Lightning Talks Award Runner-Up
+    awarder: CERN
+    date: "2019-08-01"
+    summary: 'For the talk "Deep Graph Neural Networks for Fast HGCAL Simulation".'
+    url: https://home.cern/news/news/cern/cern-openlab-summer-student-programme-closes-lightning-talks
+    icon: hero/trophy
+  - title: 2019 IRIS-HEP Fellowship
+    awarder: IRIS-HEP
+    date: "2019-06-01"
+    summary: 'For the project "HGCAL Fast Simulation with Graph Networks".'
+    url: https://iris-hep.org/fellows/RaghavKansal.html
+    icon: hero/trophy
+  - title: 2019 John Holmes Malmberg Prize
+    awarder: UC San Diego Department of Physics
+    date: "2019-06-01"
+    summary: Sole recipient of this prize, which is "presented annually at commencement to a graduating physics student who is recognized for potential for a career in physics and a measure of experimental inquisitiveness."
+    url: https://physics.ucsd.edu/Awards
+    icon: hero/trophy
+  - title: 2018-2019 Physical Sciences Dean's Undergraduate Award for Excellence
+    awarder: UC San Diego Division of Physical Sciences
+    date: "2019-05-01"
+    summary: One of 33 students from the departments of Mathematics, Physics and Chemistry "recognized for excellence in academics and fundamental research".
+    icon: hero/trophy
+  - title: 2018 William A. Lee Undergraduate Research Award
+    awarder: UC San Diego Division of Physical Sciences
+    date: "2018-07-01"
+    summary: 'For the project "Arbitrary ultra-cold atomic lattices using holographic optical tweezers".'
+    icon: hero/trophy
+
+links:
+  - icon: brands/github
+    url: https://github.com/rkansal47
+    label: GitHub
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/raghav-kansal-7968968b/
+    label: LinkedIn
+  - icon: brands/x
+    url: https://twitter.com/rkansal47
+    label: X
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=Hi8Bc4QAAAAJ&hl=en&oi=ao
+    label: Google Scholar
+  - icon: at-symbol
+    url: "mailto:rkansal at caltech dot edu"
+    label: E-mail Me

@@ -3,10 +3,10 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Website name (set in params.yaml under hugoblox.branding.name)
-title: ''
+# Website name - also surfaced via params.yaml hugoblox.identity.name
+title: 'Raghav Kansal'
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: 'https://raghavkansal.com/'
 
 ############################
 ## LANGUAGE
@@ -45,6 +45,12 @@ disableAliases: true
 outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]
+permalinks:
+  events: '/talk/:slug/'
+  publications: '/publication/:slug/'
+  tags: '/tag/:slug/'
+  categories: '/category/:slug/'
+  publication_types: '/publication-type/:slug/'
 imaging:
   resampleFilter: lanczos
   quality: 90

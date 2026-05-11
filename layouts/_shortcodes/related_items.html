@@ -1,0 +1,45 @@
+{{/* Related project items shortcode.
+
+  Lists publications and talks that reference the current project via their
+  front matter `projects:` array. Mirrors the related-items rail from the old
+  `layouts/project/single.html` override under wowchemy.
+
+  Usage: in a project's `content/projects/<slug>/index.md` body, append
+
+      {{< related_items >}}
+
+  to render related publications + talks under the project description.
+*/}}
+
+{{ $project := .Page.File.ContentBaseName }}
+
+{{ $publications := where (where site.RegularPages "Section" "publications") ".Params.projects" "intersect" (slice $project) }}
+{{ $events := where (where site.RegularPages "Section" "events") ".Params.projects" "intersect" (slice $project) }}
+
+{{ if or $publications $events }}
+<hr class="my-8 border-dotted border-neutral-300 dark:border-neutral-600">
+{{ end }}
+
+{{ with $publications }}
+  <h2 class="text-2xl font-bold mt-6 mb-3">Publications</h2>
+  <ul class="list-disc pl-6 space-y-1">
+    {{ range . }}
+      <li>
+        <a href="{{ .RelPermalink }}" class="text-primary-600 dark:text-primary-400 hover:underline">{{ .Title }}</a>
+        {{ with .Date }}<span class="text-sm text-gray-500 dark:text-gray-400"> &middot; {{ .Format "2006" }}</span>{{ end }}
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
+
+{{ with $events }}
+  <h2 class="text-2xl font-bold mt-6 mb-3">Talks and Posters</h2>
+  <ul class="list-disc pl-6 space-y-1">
+    {{ range (sort . "Params.event_start" "desc") }}
+      <li>
+        <a href="{{ .RelPermalink }}" class="text-primary-600 dark:text-primary-400 hover:underline">{{ .Title }}</a>
+        {{ with .Params.event_start }}<span class="text-sm text-gray-500 dark:text-gray-400"> &middot; {{ (time .).Format "Jan 2006" }}</span>{{ end }}
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}

@@ -12,35 +12,26 @@ hugoblox:
   # Site-level branding (for people/profiles, use the author system in content/authors/)
   # ────────────────────────────────────────────────────────────────────────────
   identity:
-    # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
-    # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
-    # Schema.org type for structured data
-    type: person # person | organization | local_business
-    # Short tagline displayed on your site
-    tagline: ""
-    # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
-    # Social accounts (used for meta tags like Twitter Cards)
+    name: "Raghav Kansal"
+    organization: "Raghav Kansal"
+    type: person
+    tagline: "Schmidt AI Fellow at Caltech and Fermilab"
+    description: "Raghav Kansal's academic website - particle physics + AI research at Caltech, Fermilab, and the CMS experiment at CERN."
     social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
+      twitter: "rkansal47"
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
   # Color and visual design system
   # ────────────────────────────────────────────────────────────────────────────
   theme:
-    # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: system
-    # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
     pack: "default"
-    # Optional: Override theme pack colors
+    # Mirrors the wowchemy `orange_custom` accent (#e76f51).
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      primary: "#e76f51"
       secondary: ""
-      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
+      neutral: ""
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
@@ -114,10 +105,9 @@ hugoblox:
   # Legal notices and licensing
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
-    # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "© {year} Raghav Kansal. All rights reserved."
     license:
-      type: cc # cc | custom
+      type: cc
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -156,7 +146,7 @@ hugoblox:
   content:
     # Math rendering
     math:
-      enable: false
+      enable: true
     # Table of contents
     toc:
       enable: true
@@ -198,8 +188,11 @@ hugoblox:
   # Traffic and behavior analytics
   # ────────────────────────────────────────────────────────────────────────────
   analytics:
+    # TODO(rkansal): drop in your real GA4 measurement ID here (G-XXXXXXXXXX).
+    # GA only fires when hugo.IsProduction is true (i.e. `hugo --gc --minify`
+    # / Netlify builds), not during local `hugo server`.
     google:
-      measurement_id: "" # Google Analytics 4: G-XXXXXXXXXX
+      measurement_id: ""
     google_tag_manager:
       container_id: "" # GTM-XXXXXXX
     plausible:
@@ -230,9 +223,9 @@ hugoblox:
   # Source code repository for "Edit this page" links
   # ────────────────────────────────────────────────────────────────────────────
   repository:
-    enable: false
-    url: "" # e.g., https://github.com/username/repo
-    branch: main
+    enable: true
+    url: "https://github.com/rkansal47/website"
+    branch: master
     content_dir: content
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -240,8 +233,8 @@ hugoblox:
   # Regional formatting preferences
   # ────────────────────────────────────────────────────────────────────────────
   locale:
-    date_format: "Jan 2, 2006" # Go time format
-    time_format: "3:04 PM"
+    date_format: "Jan 2, 2006"
+    time_format: ""
     address_format: en-us
 
   # ────────────────────────────────────────────────────────────────────────────
